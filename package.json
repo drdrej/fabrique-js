@@ -1,0 +1,37 @@
+{
+  "name": "fabrique-js",
+  "version": "0.0.1",
+  "description": "a tool to build code and do some automatic development tasks",
+  "main": "index.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  },
+
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drdrej/fabrique-js"
+  },
+
+  "keywords": [
+    "code",
+    "generator",
+    "buildr",
+    "appbuildr",
+    "task",
+    "automation",
+    "taks",
+    "dev",
+    "tools"
+  ],
+
+  "author": "drdrej",
+  "license": "MIT",
+  "gitHead": "1b9c9d4e85b956678d4703180275ff0a0e57d03c",
+  "readmeFilename": "README.md"
+}
