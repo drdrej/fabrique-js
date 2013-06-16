@@ -1,0 +1,10 @@
+{
+   "commands" : [
+       {
+           "name" : "render",
+           "params" : {
+               "model" : "./model/app.json"
+           }
+       }
+   ]
+}

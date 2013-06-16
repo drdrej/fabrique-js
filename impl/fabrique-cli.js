@@ -45,6 +45,8 @@ var sdk = require( "./sdk/index.js");
 var _ = require( "underscore" );
 var prepareParams = require( './fabrique-cli-arguments.js' );
 
+var loadTaskDesc = require( './task/load-task.js' );
+
 
 var params = prepareParams();
 var project = sdk.loadModel( params.project );

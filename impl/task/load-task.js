@@ -25,6 +25,7 @@
 var LOGGER = require( "fabrique-log" ).logger;
 var sdk = require( "../sdk/index.js");
 var commands = require( './task-get-commands.js' );
+var validateTask = require( './validate-task-desc.js' );
 
 /**
  * loads a task by name.
@@ -34,8 +35,10 @@ var commands = require( './task-get-commands.js' );
  */
 module.exports = function load( name ) {
     var identify = "./tasks/" + name + ".json";
-    var path = sdk.resolvePath( indentify );
+    var path = sdk.resolvePath( identify );
     var desc = sdk.loadModel( path );
+
+    validateTask( desc );
 
     desc.commands = commands;
 

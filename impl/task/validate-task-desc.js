@@ -22,28 +22,14 @@
 
  */
 
-var loadCommand = require( '../command/load-command.js' );
-var LOGGER = require( "fabrique-log" ).logger;
+var _ = require( 'underscore' );
 
-/**
- * Desc commands:
- *
- * @returns {Array}
- */
-module.exports = function commands() {
-    var rval = [];
 
-    this.commands.forEach( function( commandDesc ) {
-        var name = commandDesc.name;
-        var command = loadCommand( commandDesc );
 
-        command.exec = function() {
-            LOGGER.log( "exec command: " + this.desc.name );
-        };
+module.exports = function validate( desc ) {
+   if( !_.isObject(desc) )
+        throw "[VALIDATION] Task-description must be an object (json/js).";
 
-        rval.push( command );
-    });
-
-    return rval;
-}
-
+   if( !_.isArray( desc.commands ) )
+        throw "[VALIDATION] Task-description needs a field named { 'commands' : [] }.";
+};

@@ -40,6 +40,7 @@ module.exports = function prepare() {
     var argv = require('optimist')
         .usage('$0 --project "project.json" task1 task2 task3 ...')
 
+        .default( 'p', "./project.json")
         .alias('p', 'project')
         .describe('p', 'name of project.json file. default = project.json')
 

@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/task/load-task.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/task/task-get-commands.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/java-helloworld/tasks/prepare-code.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/task/validate-task-desc.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/fabrique-cli-arguments.js" afterPath="$PROJECT_DIR$/impl/fabrique-cli-arguments.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/fabrique-cli.js" afterPath="$PROJECT_DIR$/impl/fabrique-cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/task/load-task.js" afterPath="$PROJECT_DIR$/impl/task/load-task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/task/task-get-commands.js" afterPath="$PROJECT_DIR$/impl/task/task-get-commands.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371343049111" ignored="false" />
+    <file path="/Dummy.txt" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371409523461" ignored="false" />
     <file path="/test-Model.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366812637292" ignored="false" />
     <file path="/app-model.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366827086895" ignored="false" />
     <file path="/databases.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366821707549" ignored="false" />
@@ -50,7 +51,7 @@
     <file path="$PROJECT_DIR$/../fabrique-model/test/test-query-json-select.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367270002921" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-model/test/test-query-render.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367270746652" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-model/impl/query/Query.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367331983996" ignored="false" />
-    <file path="/fragment.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367336235766" ignored="false" />
+    <file path="/fragment.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371409913575" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-model/test/test-Query-object.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367334795253" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-model/impl/query/QueryManager.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367336286657" ignored="false" />
     <file path="/QueryManager.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367336285845" ignored="false" />
@@ -62,12 +63,15 @@
     <file path="$PROJECT_DIR$/../fabrique-txtdraft/README.md" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367337378703" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-txtdraft/package.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367337094733" ignored="false" />
     <file path="/fabrique" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371212085046" ignored="false" />
-    <file path="/fabrique-cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371225377439" ignored="false" />
+    <file path="/fabrique-cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371408319179" ignored="false" />
     <file path="/sdk.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371223155455" ignored="false" />
-    <file path="/fabrique-cli-arguments.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371248825400" ignored="false" />
+    <file path="/fabrique-cli-arguments.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371408033688" ignored="false" />
     <file path="/load-command.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371393894511" ignored="false" />
-    <file path="/load-task.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371407301091" ignored="false" />
-    <file path="/task-commands.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371395284298" ignored="false" />
+    <file path="/load-task.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371409407447" ignored="false" />
+    <file path="/task-commands.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371408496002" ignored="false" />
+    <file path="/validate-task-desc.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371409336539" ignored="false" />
+    <file path="/prepare-code.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371409681778" ignored="false" />
+    <file path="/app.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371409789293" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,28 +91,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="prepare-code.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/java-helloworld/tasks/prepare-code.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+            <state line="5" column="22" selection-start="105" selection-end="105" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fabrique" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/fabrique">
+      <file leaf-file-name="app.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/java-helloworld/model/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="26" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fabrique-cli-arguments.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/impl/fabrique-cli-arguments.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="24" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.051359516">
+            <state line="1" column="10" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,29 +112,16 @@
       <file leaf-file-name="fabrique-cli.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/fabrique-cli.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1478" selection-end="1515" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="47" column="48" selection-start="1661" selection-end="1661" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task-get-commands.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/task/task-get-commands.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="25" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="load-task.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="load-task.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/impl/task/load-task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="51" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0">
+            <state line="38" column="0" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.33333334">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -147,13 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="load-command.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/command/load-command.js">
+      <file leaf-file-name="validate-task-desc.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/task/validate-task-desc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="11" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="32" column="0" selection-start="1300" selection-end="1300" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -176,22 +156,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/script/lib/model/query-result-combine.js" />
-        <option value="$PROJECT_DIR$/script/lib/model/collect-needs.js" />
-        <option value="$PROJECT_DIR$/script/test/task-has-needs.js" />
-        <option value="$PROJECT_DIR$/script/test/test-query-render.js" />
-        <option value="$PROJECT_DIR$/script/lib/model/query-render.js" />
         <option value="$PROJECT_DIR$/bin/fabrique" />
         <option value="$PROJECT_DIR$/impl/sdk/sdk.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/impl/load-task.js" />
-        <option value="$PROJECT_DIR$/impl/fabrique-cli.js" />
         <option value="$PROJECT_DIR$/impl/task/task-commands.js" />
-        <option value="$PROJECT_DIR$/impl/task/task-get-commands.js" />
         <option value="$PROJECT_DIR$/impl/command/load-command.js" />
-        <option value="$PROJECT_DIR$/impl/task/load-task.js" />
         <option value="$PROJECT_DIR$/impl/fabrique-cli-arguments.js" />
+        <option value="$PROJECT_DIR$/examples/java-helloworld/tasks/prepare-code.json.js" />
+        <option value="$PROJECT_DIR$/impl/fabrique-cli.js" />
+        <option value="$PROJECT_DIR$/impl/task/task-get-commands.js" />
+        <option value="$PROJECT_DIR$/impl/task/validate-task-desc.js" />
+        <option value="$PROJECT_DIR$/impl/task/load-task.js" />
+        <option value="$PROJECT_DIR$/examples/java-helloworld/model/app.json.js" />
+        <option value="$PROJECT_DIR$/examples/java-helloworld/model/app.json" />
+        <option value="$PROJECT_DIR$/examples/java-helloworld/tasks/prepare-code.json" />
       </list>
     </option>
   </component>
@@ -324,6 +304,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -335,13 +359,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="JavaScript.Libraries" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/examples/java-helloworld" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/examples/java-helloworld" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="OPEN_URL_DIALOG">
@@ -399,7 +423,9 @@
       <method />
     </configuration>
     <configuration default="false" name="fabrique prepare-code" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="../../impl/fabrique-cli.js" application-parameters="prepare-code" working-dir="$PROJECT_DIR$/examples/java-helloworld">
+      <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
@@ -450,16 +476,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1368" height="732" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2670157" sideWeight="0.609215" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2670157" sideWeight="0.6003401" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39078498" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3894558" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -545,18 +571,21 @@
           <line>36</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/impl/task/validate-task-desc.js</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/impl/task/load-task.js</url>
+          <line>38</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="54" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/fabrique">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="26" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
@@ -574,33 +603,18 @@
     <entry file="file://$PROJECT_DIR$/impl/fabrique-cli.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="3" selection-start="2047" selection-end="2047" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/fabrique">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/sdk/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="48" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.8200371">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="26" column="48" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.8200371" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/sdk/load-model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -617,46 +631,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/command/load-command.js">
+    <entry file="file://$PROJECT_DIR$/impl/fabrique-cli-arguments.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="72" column="0" selection-start="2434" selection-end="2434" vertical-scroll-proportion="0.897281">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/fabrique-cli.js">
+    <entry file="file://$PROJECT_DIR$/bin/fabrique">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1478" selection-end="1515" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="2" column="26" selection-start="47" selection-end="47" vertical-scroll-proportion="0.10271903">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/task/load-task.js">
+    <entry file="file://$PROJECT_DIR$/examples/java-helloworld/model/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="51" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="1" column="10" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/task/task-get-commands.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="25" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="34" column="0" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.05105105">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/fabrique-cli-arguments.js">
+    <entry file="file://$PROJECT_DIR$/impl/fabrique-cli.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.051359516">
+        <state line="47" column="48" selection-start="1661" selection-end="1661" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/command/load-command.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="3" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.05105105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/java-helloworld/tasks/prepare-code.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="105" selection-end="105" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/task/validate-task-desc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1300" selection-end="1300" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/task/load-task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.33333334">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
