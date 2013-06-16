@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/fabrique-cli-arguments.js" afterPath="$PROJECT_DIR$/impl/fabrique-cli-arguments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/command/exec-command.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/fabrique-cli.js" afterPath="$PROJECT_DIR$/impl/fabrique-cli.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/sdk/load-model.js" afterPath="$PROJECT_DIR$/impl/sdk/load-model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/task/load-task.js" afterPath="$PROJECT_DIR$/impl/task/load-task.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/task/task-get-commands.js" afterPath="$PROJECT_DIR$/impl/task/task-get-commands.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,7 +14,7 @@
     <file path="/app-model.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366827086895" ignored="false" />
     <file path="/databases.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366821707549" ignored="false" />
     <file path="/project.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366822559106" ignored="false" />
-    <file path="/a.dummy" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366823935325" ignored="false" />
+    <file path="/a.dummy" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371412338458" ignored="false" />
     <file path="/cleanup.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366824077993" ignored="false" />
     <file path="/create-directory-structure.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366824744385" ignored="false" />
     <file path="/query-json-select.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366846268083" ignored="false" />
@@ -61,7 +60,7 @@
     <file path="$PROJECT_DIR$/../fabrique-txtdraft/README.md" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367337378703" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-txtdraft/package.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367337094733" ignored="false" />
     <file path="/fabrique" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371212085046" ignored="false" />
-    <file path="/fabrique-cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371410178536" ignored="false" />
+    <file path="/fabrique-cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371412349112" ignored="false" />
     <file path="/sdk.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371223155455" ignored="false" />
     <file path="/fabrique-cli-arguments.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371410250648" ignored="false" />
     <file path="/load-command.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371393894511" ignored="false" />
@@ -72,6 +71,7 @@
     <file path="/app.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371409789293" ignored="false" />
     <file path="/task-get-commands.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371411549482" ignored="false" />
     <file path="/load-model.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371411648134" ignored="false" />
+    <file path="/exec-command.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371411986117" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +100,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="fabrique-cli.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/impl/fabrique-cli.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="53" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.8064516">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/java-helloworld/model/app.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,24 +127,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fabrique-cli.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/fabrique-cli.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fabrique-cli-arguments.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/fabrique-cli-arguments.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="30" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="load-command.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/command/load-command.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -145,10 +136,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="load-task.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="load-task.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/task/load-task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="38" selection-start="1774" selection-end="1774" vertical-scroll-proportion="1.2435898">
+            <state line="45" column="38" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exec-command.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/command/exec-command.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="2" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -168,7 +170,7 @@
       <file leaf-file-name="load-model.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/sdk/load-model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.0">
+            <state line="35" column="32" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -203,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/impl/sdk/sdk.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/impl/load-task.js" />
@@ -214,11 +215,12 @@
         <option value="$PROJECT_DIR$/examples/java-helloworld/model/app.json.js" />
         <option value="$PROJECT_DIR$/examples/java-helloworld/model/app.json" />
         <option value="$PROJECT_DIR$/examples/java-helloworld/tasks/prepare-code.json" />
-        <option value="$PROJECT_DIR$/impl/fabrique-cli.js" />
         <option value="$PROJECT_DIR$/impl/fabrique-cli-arguments.js" />
         <option value="$PROJECT_DIR$/impl/task/task-get-commands.js" />
-        <option value="$PROJECT_DIR$/impl/sdk/load-model.js" />
         <option value="$PROJECT_DIR$/impl/task/load-task.js" />
+        <option value="$PROJECT_DIR$/impl/command/exec-command.js" />
+        <option value="$PROJECT_DIR$/impl/sdk/load-model.js" />
+        <option value="$PROJECT_DIR$/impl/fabrique-cli.js" />
       </list>
     </option>
   </component>
@@ -523,21 +525,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1368" height="732" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5870307" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2670157" sideWeight="0.6105442" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2670157" sideWeight="0.609215" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3894558" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39078498" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58843535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39965987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -635,7 +637,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/impl/fabrique-cli.js</url>
-          <line>68</line>
+          <line>76</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -658,23 +660,11 @@
           <line>35</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/sdk/load-model.js</url>
-          <line>36</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/fabrique">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/fabrique-cli-arguments.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="15" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0">
@@ -724,20 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/fabrique-cli-arguments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="30" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/command/load-command.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="31" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/task/task-get-commands.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="22" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0">
@@ -759,16 +735,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/fabrique-cli.js">
+    <entry file="file://$PROJECT_DIR$/impl/command/exec-command.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.0">
+        <state line="28" column="2" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/command/load-command.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="31" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/sdk/load-model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.0">
+        <state line="35" column="32" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -777,10 +762,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/task/load-task.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="38" selection-start="1774" selection-end="1774" vertical-scroll-proportion="1.2435898">
+        <state line="45" column="38" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/fabrique-cli-arguments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="22" selection-start="2299" selection-end="2301" vertical-scroll-proportion="1.4764706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/fabrique-cli.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="53" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.8064516">
+          <folding />
         </state>
       </provider>
     </entry>

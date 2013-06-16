@@ -20,35 +20,10 @@
  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  IN THE SOFTWARE.
 
-*/
-
-var LOGGER = require( "fabrique-log" ).logger;
-
-/**
- * tries to load a *.json file. if a passed file couldn't
- * be loaded it returns an empty opbject.
- *
- * @param path
- *
- * @returns {object} never null
  */
-module.exports = function load( path ) {
-        LOGGER.log( "load module: " + path );
 
-        try {
-            var rval = require( path );
-            if( rval ) {
-                LOGGER.success( "module loaded. path = " + path  );
-                return rval;
-            }
 
-            LOGGER.warn( "couldn't load module. path = " + path  );
 
-            return {};
-        } catch( e ) {
-            LOGGER.exception( e );
-            LOGGER.warn( "couldn't load module. path = " + path );
+module.exports = function exec() {
 
-            return {};
-        }
 };

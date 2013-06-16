@@ -49,7 +49,15 @@ var loadTaskDesc = require( './task/load-task.js' );
 
 
 var params = prepareParams();
-var project = sdk.loadModel( params.project );
+
+var project = {
+};
+
+// fix project-var.
+if( _.isString(params.project) ) {
+  project = sdk.loadModel( params.project );
+}
+
 
 if( !_.isArray(params.tasks) ) {
     LOGGER.error( "var params.task is not an Array: params.tasks = " + params.tasks );
@@ -63,12 +71,12 @@ if( !_.isArray(params.tasks) ) {
 
 
 params.tasks.forEach( function( task ) {
-    LOGGER.log( "load task: " + task.name );
+    LOGGER.log( "handle task: " + task.name );
 
     var taskDesc = loadTaskDesc( task );
     var commands = taskDesc.commands();
 
-    LOGGER.log("task = " + task + ": commands loaded.");
+    LOGGER.log("task = " + task.name + ": commands loaded.");
 
     commands.forEach( function( cmd )  {
        cmd.exec( params );
