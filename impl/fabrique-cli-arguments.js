@@ -24,7 +24,7 @@
 
 var LOGGER = require("fabrique-log").logger;
 var _ = require( "underscore" );
-var resolvePath = require('./project/resolve-path.js');
+var resolvePath = require('./sdk/resolve-path.js');
 var fs = require('fs');
 
 module.exports = function prepare() {

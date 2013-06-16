@@ -23,53 +23,17 @@
  */
 
 
-
 /**
- * Usage from command-line:
+ * loads a command by description.
  *
- * > fabrique -p project.json <task-name> (<task-name>)*
- *
- * executes tasks.
- *
- * Example:
- * ---------
- * >fabrique build-project compile-project jar-project
- *
- * this call will use default project.json file and executes
- * the tasks build-project and compile-project.
+ * @param desc
+ * @returns {*}
  */
+module.exports = function load( desc ) {
+    var fabriqueID = "fabrique-" + desc.name;
 
-var LOGGER = require( "fabrique-log" ).logger;
-var sdk = require( "./sdk/index.js");
+    var module = require( fabriqueID );
+    module.desc = desc;
 
-var _ = require( "underscore" );
-var prepareParams = require( './fabrique-cli-arguments.js' );
-
-
-var params = prepareParams();
-var project = sdk.loadModel( params.project );
-
-if( !_.isArray(params.tasks) ) {
-    LOGGER.error( "var params.task is not an Array: params.tasks = " + params.tasks );
-    return;
+    return module;
 }
-
-
-
-
-
-
-
-params.tasks.forEach( function( task ) {
-    LOGGER.log( "load task: " + task );
-
-    var taskDesc = loadTaskDesc( task );
-    var commands = taskDesc.commands();
-
-    LOGGER.log("task = " + task + ": commands loaded.");
-
-    commands.forEach( function( cmd )  {
-       cmd.exec( params );
-    });
-
-});

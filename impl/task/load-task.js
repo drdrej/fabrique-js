@@ -22,54 +22,22 @@
 
  */
 
-
+var LOGGER = require( "fabrique-log" ).logger;
+var sdk = require( "../sdk/index.js");
+var commands = require( './task-get-commands.js' );
 
 /**
- * Usage from command-line:
+ * loads a task by name.
  *
- * > fabrique -p project.json <task-name> (<task-name>)*
- *
- * executes tasks.
- *
- * Example:
- * ---------
- * >fabrique build-project compile-project jar-project
- *
- * this call will use default project.json file and executes
- * the tasks build-project and compile-project.
+ * @param name valid task name.
+ * @returns {*} task description as an object
  */
+module.exports = function load( name ) {
+    var identify = "./tasks/" + name + ".json";
+    var path = sdk.resolvePath( indentify );
+    var desc = sdk.loadModel( path );
 
-var LOGGER = require( "fabrique-log" ).logger;
-var sdk = require( "./sdk/index.js");
+    desc.commands = commands;
 
-var _ = require( "underscore" );
-var prepareParams = require( './fabrique-cli-arguments.js' );
-
-
-var params = prepareParams();
-var project = sdk.loadModel( params.project );
-
-if( !_.isArray(params.tasks) ) {
-    LOGGER.error( "var params.task is not an Array: params.tasks = " + params.tasks );
-    return;
-}
-
-
-
-
-
-
-
-params.tasks.forEach( function( task ) {
-    LOGGER.log( "load task: " + task );
-
-    var taskDesc = loadTaskDesc( task );
-    var commands = taskDesc.commands();
-
-    LOGGER.log("task = " + task + ": commands loaded.");
-
-    commands.forEach( function( cmd )  {
-       cmd.exec( params );
-    });
-
-});
+    return desc;
+};
