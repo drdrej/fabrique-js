@@ -33,13 +33,16 @@ var validateTask = require( './validate-task-desc.js' );
  * @param name valid task name.
  * @returns {*} task description as an object
  */
-module.exports = function load( name ) {
-    var identify = "./tasks/" + name + ".json";
-    var path = sdk.resolvePath( identify );
-    var desc = sdk.loadModel( path );
+module.exports = function load( task ) {
+    // var identify = "./tasks/" + task.name + ".json";
+    // var path = sdk.resolvePath( identify );
+    LOGGER.log( "load task: " + task.name );
+    var desc = sdk.loadModel( task.path );
 
     validateTask( desc );
 
+    desc.def = task;
+    desc.def.commands = desc.commands;
     desc.commands = commands;
 
     return desc;

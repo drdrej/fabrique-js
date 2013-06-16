@@ -33,7 +33,7 @@ var LOGGER = require( "fabrique-log" ).logger;
  * @returns {object} never null
  */
 module.exports = function load( path ) {
-        LOGGER.log( "load module" );
+        LOGGER.log( "load module: " + path );
         LOGGER.value( "path", path );
 
         try {

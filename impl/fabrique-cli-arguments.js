@@ -56,7 +56,10 @@ module.exports = function prepare() {
 
                 try {
                     fs.statSync( path );
-                    params.tasks.push( path );
+                    params.tasks.push( {
+                        path : path,
+                        name : task
+                    } );
                 } catch (err) {
                     LOGGER.log('Unable to open task file "' + path + '"');
                     LOGGER.error("error :: " + err);

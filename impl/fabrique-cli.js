@@ -63,7 +63,7 @@ if( !_.isArray(params.tasks) ) {
 
 
 params.tasks.forEach( function( task ) {
-    LOGGER.log( "load task: " + task );
+    LOGGER.log( "load task: " + task.name );
 
     var taskDesc = loadTaskDesc( task );
     var commands = taskDesc.commands();

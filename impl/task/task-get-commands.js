@@ -33,8 +33,9 @@ var LOGGER = require( "fabrique-log" ).logger;
 module.exports = function commands() {
     var rval = [];
 
-    this.commands.forEach( function( commandDesc ) {
-        var name = commandDesc.name;
+    LOGGER.log( "load commands for task: " + this.def.name );
+
+    this.def.commands.forEach( function( commandDesc ) {
         var command = loadCommand( commandDesc );
 
         command.exec = function() {
