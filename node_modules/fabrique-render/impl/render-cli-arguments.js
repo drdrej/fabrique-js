@@ -34,67 +34,48 @@ module.exports = function prepare() {
      * @type {{object}}
      */
     var params = {
-        templates: [],
-        output: []
+        data : "",
+        template: "",
+        output: ""
     };
 
     var argv = require('optimist')
-        .usage('$0 --model ./my-data.json --src "..." --dest "..." file1.tmpl, file2.tmpl, file3.tmpl')
-        .demand([ 'm', 's', 'd' ])
+        .usage('$0 --model <data> --template "<template-path>" --output "<output-path>"')
+        .demand([ 'm', 't', 'o' ])
 
         .alias('m', 'model')
-        .describe('m', 'relative path to a JSON-file filled with data (to be used to rendered).')
+        .describe('m', 'relative path to a JSON-file filled with data (to render an output).')
 
-        .alias('s', 'src')
-        .describe('s', 'source-directory with template-files')
+        .alias('t', 'template')
+        .describe('t', 'refer template-file')
 
-        .alias('d', 'dest')
-        .describe('d', 'destination-directory where rendered files should be stored')
+        .alias('o', 'output')
+        .describe('o', 'refer output-file' )
 
-        .check(function (argv) {
-            if (!argv._.length) {
-                throw 'Must define at least one template-file.';
-            }
 
-            argv._.forEach(function (tmplName) {
-                var tmplPath = resolvePath(argv.s, tmplName);
-
-                try {
-                    fs.statSync(tmplPath);
-                    params.templates.push(tmplPath);
-                } catch (err) {
-                    var userMsg = 'Unable to open template file "' + tmplPath + '"';
-                    var errMsg = "error :: " + err;
-
-                    LOGGER.log(userMsg);
-                    LOGGER.error(errMsg);
-
-                    throw userMsg;
-                }
-            });
-        })
 
         .check(function (argv) {
-            if (!argv._.length) {
-                throw 'Must define at least one template-file.';
-            }
+            params.data = resolvePath(argv.m, "");
 
-            argv._.forEach(function (tmplName) {
-                var outputPath = resolvePath(argv.d, tmplName);
-                params.output.push(outputPath);
-            });
+            // TODO: check if path exists or not?
         })
 
 
         .check(function (argv) {
-            var root = process.cwd();
-            var dataPath = resolvePath(root, argv.m);
+            params.output  = resolvePath(argv.o, "");
+
+            // TODO: check if path exists or not?
+        })
+
+        .check(function (argv) {
+            var tmplPath = resolvePath(argv.t, "");
 
             try {
-                fs.statSync(dataPath);
-                params.data = dataPath;
+                fs.statSync(tmplPath);
+
+                params.template = tmplPath;
             } catch (err) {
-                var userMsg = 'Unable to find data file "' + dataPath + '"';
+                var userMsg = 'Unable to open template file "' + tmplPath + '"';
                 var errMsg = "error :: " + err;
 
                 LOGGER.log(userMsg);
@@ -102,20 +83,11 @@ module.exports = function prepare() {
 
                 throw userMsg;
             }
-
         })
 
 
+
         .argv;
-
-    if (params.output.length != params.templates.length) {
-        LOGGER.error('couldn\'t extract parameter from cli. (params.output.length != params.templates.length) ' +
-            ':: params.output.length = '
-            + params.output.length
-            + ' :: params.templates.length: ' + params.templates.length);
-
-        throw "Couldn't extract parameter from cli. internal error!";
-    }
 
     if (!_.isString(params.data)) {
         LOGGER.error('couldn\'t extract parameter from cli. (!isString(params.data)) ' +

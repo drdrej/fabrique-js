@@ -23,54 +23,6 @@
  */
 
 
+module.exports = {
 
-/**
- * Usage from command-line:
- *
- * > fabrique-render -model ./my-data.json -src "..." -dest "..." file1.tmpl, file2.tmpl, file3.tmpl
- *
- * render file1 ... file3 from directory passed in "-src" parameter to directory passed in
- * "-dest" parameter.
- *
- */
-
-var LOGGER = require( "fabrique-log" ).logger;
-var _ = require( "underscore" );
-
-var prepareParams = require( './render-cli-arguments.js' );
-var params = prepareParams();
-
-var exec = require( "./render-exec.js" );
-exec( params );
-
-
-
-
-
-/*
-params.templates.forEach( function( templateFile, index ) {
- try {
- var template = fs.readFileSync( templateFile, 'utf8' );
- var rendered = render( template, data );
- var output = params.output[ index ];
-
- fs.writeFileSync( output, rendered, 'utf8')
-
- LOGGER.success( 'write rendered file to: ' + output );
- } catch (err) {
- LOGGER.exception( err );
- LOGGER.warn( 'Unable to render template: "' + template + '". skip it!' );
- }
-});
-*/
-
-
-
-
-
-
-
-
-
-
-
+}

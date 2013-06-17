@@ -38,11 +38,10 @@
  * this call will use default project.json file and executes
  * the tasks build-project and compile-project.
  */
-
+var _ = require( "underscore" );
 var LOGGER = require( "fabrique-log" ).logger;
 var sdk = require( "./sdk/index.js");
 
-var _ = require( "underscore" );
 var prepareParams = require( './fabrique-cli-arguments.js' );
 
 var loadTaskDesc = require( './task/load-task.js' );

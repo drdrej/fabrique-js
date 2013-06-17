@@ -22,6 +22,7 @@
 
  */
 
+var _ = require( "underscore" );
 var loadCommand = require( '../command/load-command.js' );
 var LOGGER = require( "fabrique-log" ).logger;
 
@@ -38,9 +39,14 @@ module.exports = function commands() {
     this.def.commands.forEach( function( commandDesc ) {
         var command = loadCommand( commandDesc );
 
-        command.exec = function() {
-            LOGGER.log( "exec command: " + this.desc.name );
-        };
+        if( !_.isFunction( command.exec ) ) {
+            LOGGER.log( "command.exec is not a function. use default exec");
+            command.exec = function() {
+                LOGGER.log( "exec command: " + this.desc.name );
+            };
+
+            return;
+        }
 
         rval.push( command );
     });

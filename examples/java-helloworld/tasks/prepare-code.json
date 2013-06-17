@@ -3,7 +3,9 @@
        {
            "name" : "render",
            "params" : {
-               "model" : "./model/app.json"
+               "model"    : "./model/app.json",
+               "template" : "",
+               "output"   : ""
            }
        }
    ]
