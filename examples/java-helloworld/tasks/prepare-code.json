@@ -2,11 +2,19 @@
    "commands" : [
        {
            "name" : "render",
+
            "params" : {
                "model"    : "./model/app.json",
-               "template" : "",
-               "output"   : ""
+               "template" : "./",
+               "output"   : "./output/App.java"
            }
+       },
+       {
+           "render " : [
+               "./model/app.json",
+               "./",
+               "./output/App.java"
+           ]
        }
    ]
 }
