@@ -18,6 +18,30 @@ module.exports = function task( fabrique, project ) {
             fabrique.cmd( "render" ).exec( result );
         });
 
+    /**
+     * Erklärung:
+     * -------------------------------------------------------------------------
+     * filter() :
+     *    value if( accept ) -> value wird weiter verarbeitet.
+     *    if( value not accept ) -> value wird im nächsten Schritt übersprungen.
+     *
+     * decide()
+     *    -> return events, damit dann der stream gespaltet und weiterverarbeitet werden kann
+     *
+     * reduce()
+     *
+     * apply( function )
+     *    -> führt eine funktion auf dem Element aus.
+     */
+    var dbClasses = fabrique.model( "./filename.js")
+        .filter( function(value) {
+
+        } )
+
+        .decide( function(value) {
+
+        });
+
     /*
     fabrique
         .query()
