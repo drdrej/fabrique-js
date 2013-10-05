@@ -24,27 +24,22 @@ describe('Fabrique', function () {
                     }
                 });
 
+                assert.ok(_.isObject(fabrique) );
+
                 var input = fabrique.input( "classes");
 
                 assert.ok( _.isObject(input) );
-                assert.ok(_.has(input, "model" );
-
+                assert.ok(_.has(input, "model" ) );
                 assert.equal( input.path, (__dirname + "/input/classes"));
 
-                /*.find( "*.json").apply( function() {
+                var patternDef = input.model( "**/*.json" );
 
-                });*/
+                patternDef.apply( function( file )  {
+                    // apply wird auf dem model aufgerufen, dann bekommt man das ganze objekt
+                    // zurück gegeben.
+                    console.log( "-- found file: " + file );
+                });
 
-                // .match( "")
-                assert.ok(_.isObject(fabrique) );
-
-
-
-//                assert.ok( _.isObject(account)  );
-//                assert.equal( account._id, login );
-//                assert.ok(_.isArray(account.family) );
-
-                console.log( "call test-find account:::" );
                 done();
             });
     });

@@ -2,14 +2,20 @@
 function InputPath( path ) {
     this.path = path;
 
-    var wrench = require('wrench');
+    /*var wrench = require('wrench');
 
     this.model = function( pattern ) {
         wrench.readdirRecursive('my_directory_name',
             function(error, current) {
 
         });
-    }
+    }*/
+
+    var glob = require("glob");
+
+    glob("**/*.json", function (err, files) {
+
+    });
 };
 
 exports.create = function( path ) {

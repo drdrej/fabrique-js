@@ -7,7 +7,7 @@
 
 
 module.exports = function task( fabrique, project ) {
-    fabrique
+    fabrique.input().model()
         .query( "> .test " )
         .filter( function(result) {
             //result wird umgemappt.
