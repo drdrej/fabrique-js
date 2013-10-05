@@ -7,7 +7,9 @@
     "underscore": "~1.4.4",
     "optimist": "~0.5.2",
     "fabrique-log": "0.0.2",
-    "fabrique-render": "0.0.5"
+    "fabrique-render": "0.0.5",
+    "rsvp": "~2.0.4",
+    "wrench": "~1.5.1"
   },
   "devDependencies": {},
   "scripts": {

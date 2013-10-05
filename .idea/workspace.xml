@@ -2,12 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/config/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/fabrique.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-fabrique-create.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/java-helloworld/tasks/example.js" afterPath="$PROJECT_DIR$/examples/java-helloworld/tasks/example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/fabrique-input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/Makefile.dryice.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/Makefile.dryice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/README.md" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/README.md" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/amdefine.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/amdefine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/array-set.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/array-set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/base64-vlq.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/base64-vlq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/base64.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/base64.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/binary-search.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/binary-search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/fabrique.js" afterPath="$PROJECT_DIR$/impl/fabrique.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/package.json" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/run-tests.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/run-tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-consumer.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-consumer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-generator.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-node.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/build/suffix-browser.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/build/suffix-browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-api.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-array-set.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-array-set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-base64-vlq.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-base64-vlq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-base64.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-base64.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-binary-search.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-binary-search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-dog-fooding.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-dog-fooding.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-fabrique-create.js" afterPath="$PROJECT_DIR$/test/test-fabrique-create.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-consumer.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-consumer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-generator.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-node.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/util.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/util.js" afterPath="$PROJECT_DIR$/node_modules/fabrique-render/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/util.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-js.iws" />
@@ -98,10 +123,11 @@
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/node-backend/test/test-hello-world.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1379334580305" ignored="false" />
     <file path="/test-hello-world.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1379334567276" ignored="false" />
     <file path="/example.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1380915821633" ignored="false" />
-    <file path="/fabrique.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1380917957859" ignored="false" />
+    <file path="/fabrique.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1380977183915" ignored="false" />
     <file path="/checkConfig.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1380916319403" ignored="false" />
-    <file path="/test-fabrique-create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1380918190148" ignored="false" />
+    <file path="/test-fabrique-create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1380977881376" ignored="false" />
     <file path="/config.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1380917608554" ignored="false" />
+    <file path="/fabrique-input.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1380977814035" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +168,7 @@
       <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="14" selection-start="144" selection-end="144" vertical-scroll-proportion="-0.8947368">
+            <state line="8" column="14" selection-start="238" selection-end="238" vertical-scroll-proportion="-0.8947368">
               <folding />
             </state>
           </provider>
@@ -160,7 +186,7 @@
       <file leaf-file-name="test-fabrique-create.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test-fabrique-create.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="30" selection-start="476" selection-end="476" vertical-scroll-proportion="0.44884488">
+            <state line="29" column="49" selection-start="857" selection-end="857" vertical-scroll-proportion="0.6633663">
               <folding />
             </state>
           </provider>
@@ -169,7 +195,16 @@
       <file leaf-file-name="fabrique.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/fabrique.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+            <state line="37" column="47" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fabrique-input.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/fabrique-input.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="35" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -211,7 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/impl/command/exec-command.js" />
         <option value="$PROJECT_DIR$/impl/sdk/load-model.js" />
         <option value="$PROJECT_DIR$/impl/index.js" />
         <option value="$PROJECT_DIR$/impl/task/task-get-commands.js" />
@@ -224,8 +258,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/impl/config/checkConfig.js" />
         <option value="$PROJECT_DIR$/api.js" />
-        <option value="$PROJECT_DIR$/impl/fabrique.js" />
         <option value="$PROJECT_DIR$/impl/config/config.js" />
+        <option value="$PROJECT_DIR$/impl/fabrique.js" />
+        <option value="$PROJECT_DIR$/impl/fabrique-input.js" />
         <option value="$PROJECT_DIR$/test/test-fabrique-create.js" />
       </list>
     </option>
@@ -291,6 +326,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="input" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -387,18 +466,18 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\sdk" />
-    </key>
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/drdrej/fabrique.git" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\sdk" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\data\input" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\examples\java-helloworld\tasks" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\task" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\unsorted" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl" />
-      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\script\lib\model" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.fabrique prepare-code">
@@ -496,13 +575,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1368" height="776" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58702534" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2670157" sideWeight="0.4129747" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2670157" sideWeight="0.4129747" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -606,11 +685,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/impl/command/exec-command.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="2" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/task/load-task.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="0" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.0" />
@@ -668,7 +742,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="144" selection-end="144" vertical-scroll-proportion="-0.8947368">
+        <state line="8" column="14" selection-start="238" selection-end="238" vertical-scroll-proportion="-0.8947368">
           <folding />
         </state>
       </provider>
@@ -687,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/fabrique.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/config/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="63" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
@@ -701,9 +768,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/impl/fabrique.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="47" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/fabrique-input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="35" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test-fabrique-create.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="30" selection-start="476" selection-end="476" vertical-scroll-proportion="0.44884488">
+        <state line="29" column="49" selection-start="857" selection-end="857" vertical-scroll-proportion="0.6633663">
           <folding />
         </state>
       </provider>

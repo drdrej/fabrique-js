@@ -14,11 +14,28 @@ describe('Fabrique', function () {
 
                 var fabrique = createFabrique( {
                     root  : "",
+
                     input : {
-                        classes : ""
+                        classes : __dirname + "/input/classes"
+                    },
+
+                    output : {
+                        classes : __dirname + "/output/classes"
                     }
                 });
 
+                var input = fabrique.input( "classes");
+
+                assert.ok( _.isObject(input) );
+                assert.ok(_.has(input, "model" );
+
+                assert.equal( input.path, (__dirname + "/input/classes"));
+
+                /*.find( "*.json").apply( function() {
+
+                });*/
+
+                // .match( "")
                 assert.ok(_.isObject(fabrique) );
 
 
