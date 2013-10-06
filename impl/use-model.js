@@ -5,3 +5,6 @@ var when = function( promised ) {
 
 var _ = require( "underscore" );
 
+function useModel() {
+
+}

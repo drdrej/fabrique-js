@@ -1,0 +1,91 @@
+{
+  "packageName": "com.touchableheroes.test.db.model",
+  "name": "Car",
+  "fqn": "com.touchableheroes.test.db.model.Car",
+  "isPublic": true,
+  "annotations": [
+    {
+      "values": {
+        "ifExistsDelete": true,
+        "name": "car"
+      },
+      "fqn": "com.touchableheroes.android.drafts.db.model.Table",
+      "name": "Table",
+      "packageFqn": "com.touchableheroes.android.drafts.db.model"
+    }
+  ],
+  "fields": [],
+  "methods": [],
+  "getter": [
+    {
+      "name": "number",
+      "defaultValue": 5,
+      "annotations": [
+        {
+          "values": {
+            "value": "3"
+          },
+          "fqn": "com.touchableheroes.android.drafts.db.model.DefaultValue",
+          "name": "DefaultValue",
+          "packageFqn": "com.touchableheroes.android.drafts.db.model"
+        }
+      ],
+      "parameters": [],
+      "returnType": {
+        "FQN": "java.lang.String",
+        "packageName": "java.lang",
+        "typeName": "String",
+        "isVoid": true,
+        "isPublic": true
+      }
+    },
+    {
+      "name": "owner",
+      "defaultValue": 5,
+      "annotations": [],
+      "parameters": [],
+      "returnType": {
+        "FQN": "com.touchableheroes.test.db.model.CarOwner",
+        "packageName": "com.touchableheroes.test.db.model",
+        "typeName": "CarOwner",
+        "isVoid": true,
+        "isPublic": true
+      }
+    },
+    {
+      "name": "carType",
+      "defaultValue": 5,
+      "annotations": [
+        {
+          "values": {
+            "value": "1"
+          },
+          "fqn": "com.touchableheroes.android.drafts.db.model.DefaultValue",
+          "name": "DefaultValue",
+          "packageFqn": "com.touchableheroes.android.drafts.db.model"
+        }
+      ],
+      "parameters": [],
+      "returnType": {
+        "FQN": "int",
+        "packageName": "",
+        "typeName": "int",
+        "isVoid": true,
+        "isPublic": true
+      }
+    },
+    {
+      "name": "getId",
+      "defaultValue": 5,
+      "annotations": [],
+      "parameters": [],
+      "returnType": {
+        "FQN": "int",
+        "packageName": "",
+        "typeName": "int",
+        "isVoid": true,
+        "isPublic": true
+      }
+    }
+  ]
+}

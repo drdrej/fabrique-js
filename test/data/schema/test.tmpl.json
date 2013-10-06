@@ -1,0 +1,18 @@
+{
+    "create": {
+        "temp": true,
+        "database": "string | null",
+        "table": "string",
+        "ifNotExists": true,
+
+        "columns": [
+            {
+                "name": "string",
+                "type": "string | null",
+                "constraints": [
+
+                ]
+            }
+        ]
+    }
+}
