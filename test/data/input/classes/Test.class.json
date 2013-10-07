@@ -1,7 +1,7 @@
 {
   "packageName": "com.touchableheroes.test.db.model",
-  "name": "Car",
-  "fqn": "com.touchableheroes.test.db.model.Car",
+  "name": "Test",
+  "fqn": "com.touchableheroes.test.db.model.Test",
   "isPublic": true,
   "annotations": [
     {

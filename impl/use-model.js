@@ -4,7 +4,20 @@ var when = function( promised ) {
 };
 
 var _ = require( "underscore" );
+var glob = require("glob");
 
-function useModel() {
+// "**/*.json"
+
+exports.useModel = function( pattern ) {
+
+    return when( function(resolve, reject) {
+        glob(pattern, function (err, files) {
+            _.each(files, function(file){
+                console.log( "[MODEL]  found file: " + file);
+                resolve( file );
+            });
+        });
+    });
+
 
 }

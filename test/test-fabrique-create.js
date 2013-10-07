@@ -32,13 +32,18 @@ describe('Fabrique', function () {
                 assert.ok(_.has(input, "model" ) );
                 assert.equal( input.path, (__dirname + "/input/classes"));
 
-                var patternDef = input.model( "**/*.json" );
+                var patternDef = input.model( "*.json" );
 
+                patternDef.apply( function() {
+                    console.log( "-- impl. handler" );
+                });
+
+                /*
                 patternDef.apply( function( file )  {
                     // apply wird auf dem model aufgerufen, dann bekommt man das ganze objekt
                     // zurück gegeben.
                     console.log( "-- found file: " + file );
-                });
+                });                                        */
 
                 done();
             });
