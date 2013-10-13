@@ -1,0 +1,51 @@
+{
+    "version" : "0.0.1",
+    "spec"    : "http://www.sqlite.org/lang_createtable.html",
+
+    "createTable": {
+        "temp": true,
+        "name": {
+            "database": "testDB",
+            "table": "test"
+        },
+        "ifNotExists": true,
+
+        "structure": {
+            "as": "SELECT * FROM",  // entweder 'as' oder 'columns' ausgelesen. falls beides angegeben -> konflikt!!!
+
+            "columns": [
+                {
+                    "column-def": {
+                        "name" : "age",
+                        "type": {
+                            "name" : "INT",
+                            "value" : [       // kann null sein. dann -> type()
+                                3,
+                                10            // nur 2 parameter werden gelesen -> 0, 1 oder 2 params erlaubt.
+                            ]
+                        },
+                        "column-constraints": [
+                            {
+                                "name" : "check-it",  // strings auf erlaubte zeichen prüfen
+
+                                "primary-key" : { },   // es gibt mehrere constraint-typen, alle haben unterschiedliche strukturen.
+                                "not-null"  :   {},
+                                "unique" :      {},
+                                "check"  :      {},
+                                "default"  : {},
+                                "collate"  : {
+                                    "name" : ""
+                                },
+                                "foreign-key" : {}
+                            }
+
+                        ]},
+                    "table-constraints" : {
+
+                    }
+                }
+            ]
+        }
+
+    }
+}

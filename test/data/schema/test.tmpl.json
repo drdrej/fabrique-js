@@ -1,5 +1,5 @@
 {
-    "create": {
+    "createTable": {
         "temp": true,
         "database": "string | null",
         "table": "string",

@@ -1,63 +1,49 @@
+var _ = require( "underscore" );
+
 
 function InputPath( path ) {
     this.path = path;
-    this.promises = [];
+    this.lastPromise = null;
 
-    /*var wrench = require('wrench');
+    this.accept = function( newPromise ) {
+       if(_.isNull(this.lastPromise)) {
+           this.lastPromise = newPromise;
+       } else {
+           this.lastPromise.then( function() {
+               return newPromise;
+           }).then( null, function(error) {
 
-    this.model = function( pattern ) {
-        wrench.readdirRecursive('my_directory_name',
-            function(error, current) {
+           });
+       }
+    };
 
-        });
-
-
-        promise.then( fnc() {
-             nextPromise.then()
-        })
-
-        model( "*.schema.json" ).select().filter().apply(
-             function( value ) { });
-
-             promise -> promise -> promise
-
-             Bedingung: model() wird ausgeführt und das Ergebnis an apply weiter gegeben
-    }*/
+//        model( "*.schema.json" )
+//           .select().filter().apply(
+//             function( value ) { });
 
 
+
+    /**
+     *
+     * @param pattern
+     * @returns {this}
+     */
     this.model = function( pattern ) {
         // TODO: validate pattern/arguments before append to primes-list.
         var use = require( "./use-model.js").useModel;
-
-        this.promises.push( {
-            promise : use,
-            params : [ pattern ]
-        });
+        this.accept( use(pattern) );
 
         return this;
-
-        /*{
-            before : function () {
-                use(pattern).then( function(value) {
-                    console.log( "-- handle file: " + value );
-
-                    this.apply()
-                });
-            },
-
-            apply : function( handler ) {
-                this.before( );
-                console.log( "-- call apply.handler() " );
-             }
-        };*/
     };
 
 
     this.apply = function( handler ) {
-
-        // take first promise
-        // then() -> take second promise
-        this.promises
+        this.lastPromise.then( function(value) {
+            return handler(value);
+        }).then(null, function() {
+            console.error( "!! problem..." );
+            throw new Error("!! apply is broken...." );
+        });
     };
 
 };
