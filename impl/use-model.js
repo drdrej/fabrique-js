@@ -8,10 +8,19 @@ var _ = require( "underscore" );
 
 // "**/*.json"
 
+var wrench = require( "wrench" );
+
+
 exports.useModel = function( pattern ) {
     try {
-        return when( function(resolve, reject) {
+        var rval = when( function(resolve, reject) {
             console.log( "-- couldn't resolve path: " + pattern );
+
+            // var files = [];
+            // wrench.readdirRecursive('my_directory_name', function(error, curFiles) {
+                // curFiles is what you want
+            // });
+
    /*         glob(pattern, function (err, files) {
                 _.each(files, function(file){
                     console.log( "[MODEL]  found file: " + file);
@@ -19,8 +28,23 @@ exports.useModel = function( pattern ) {
                 });
             });    */
 
-            return resolve( "problem" );
+            /* return resolve( {
+                result : "problem"
+            }); */
+
+            return resolve( {
+                path : "c:\\test",
+                model : {}
+            });
         });
+
+        rval.then(function( value ) {
+            console.log( "..." );
+        }).then(null, function( error ) {
+            console.error( error );
+        });
+
+        return rval;
     } catch( err ) {
         console.log( "!!! create error !!!" );
         // return reject( err );
