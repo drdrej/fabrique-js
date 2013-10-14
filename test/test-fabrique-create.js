@@ -34,8 +34,8 @@ describe('Fabrique', function () {
 
                 var patternDef = input.model( "*.json" );
 
-                patternDef.apply( function() {
-                    console.log( "-- impl. handler" );
+                patternDef.apply( function( element ) {
+                    console.log( "-- impl. handler: " + element );
                 });
 
                 /*

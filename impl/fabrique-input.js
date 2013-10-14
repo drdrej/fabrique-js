@@ -9,18 +9,17 @@ function InputPath( path ) {
        if(_.isNull(this.lastPromise)) {
            this.lastPromise = newPromise;
        } else {
-           this.lastPromise.then( function() {
+           var promise = this.lastPromise;
+
+           promise.then( function() {
                return newPromise;
            }).then( null, function(error) {
-
+               throw new Error( "couldn't execute last promise." );
            });
+
+           this.lastPromise = newPromise;
        }
     };
-
-//        model( "*.schema.json" )
-//           .select().filter().apply(
-//             function( value ) { });
-
 
 
     /**
@@ -31,21 +30,41 @@ function InputPath( path ) {
     this.model = function( pattern ) {
         // TODO: validate pattern/arguments before append to primes-list.
         var use = require( "./use-model.js").useModel;
-        this.accept( use(pattern) );
+        // this.accept( use(pattern) );
+
+        use(pattern).then( function(file){
+            console.log( file );
+            console.log( "-- found file: " + file );
+            return "done";
+        }).then(null, function(error) {
+            console.error( error );
+            console.error( "!! couldn't resolve promise: " + error );
+            return "error";
+        });
 
         return this;
     };
 
 
     this.apply = function( handler ) {
-        this.lastPromise.then( function(value) {
+        /*
+        var toApply = this.lastPromise;
+        if(_.isNull(toApply) ) {
+            throw new Error( "This is not ");
+        }
+
+        if(!_.isFunction(toApply.then) ) {
+            throw new Error( "This is not a correct call." );
+        }
+
+        toApply.then( function(value) {
             return handler(value);
-        }).then(null, function() {
+        }).then(null, function(err) {
             console.error( "!! problem..." );
             throw new Error("!! apply is broken...." );
         });
+        */
     };
-
 };
 
 exports.create = function( path ) {
