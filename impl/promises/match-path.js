@@ -11,6 +11,8 @@ var wrench = require( "wrench" );
 exports.exec = function(root, pattern) {
     return when( function(resolve, reject){
         wrench.readdirRecursive(root, function(error, files) {
+            console.log( "--  found path ::: " + files[0]);
+
             if(error) {
                 console.error( "!! couldn't walk recursiv over directories. something is wrong with wrench.");
                 console.error(error);
@@ -18,21 +20,35 @@ exports.exec = function(root, pattern) {
                 return reject(error);
             }
 
-            handleResult(resolve, files);
+            handleResult(resolve, files, pattern);
         });
     });
 };
 
-var handleResult = function(resolve, files) {
+var handleResult = function(resolve, files, pattern) {
     if(_.isString(files) ) {
-       resolve(files);
+       if( shouldUse(files, pattern) ) {
+           resolve(files);
+       }
     } else if(_.isArray(files)){
        console.log( "-- model-candidates: " + files.length );
        console.log( files );
 
-        _.each( files, function(file) {
-            console.log( "-- push candidate: " + file);
-            resolve(file);
-        });
+       _.each( files, function(file) {
+           console.log( "-- push candidate: " + file);
+
+          if( shouldUse(file, pattern) ) {
+               resolve(file);
+          }
+       });
     }
+};
+
+var shouldUse = function(file, pattern) {
+  var match = require( "minimatch" );
+  var matcher = match( file, pattern );
+
+  console.log( "##### use regExp :::" + matcher + ":pattern = " + pattern + " ::: " + file );
+
+  return true;
 };
