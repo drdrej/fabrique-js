@@ -10,7 +10,9 @@ describe('Fabrique', function () {
         var root = __dirname + "/data";
         console.log( "-- root : " + root);
 
-        match( root, "*.json")
+        // match() -> queue -> nextOperation()
+        // match( root, "*.json")
+        match(root, "input" )
              .then( function( file ) {
              console.log("###--## file : " + file);
              console.log( "-- matched one element" );

@@ -4,24 +4,31 @@ var when = function( promised ) {
 };
 
 var _ = require( "underscore" );
-
 var wrench = require( "wrench" );
 
 
 exports.exec = function(root, pattern) {
+
+    wrench.readdirRecursive(root, function(error, files) {
+        console.log(files);
+
+        if(error) {
+            console.error( "!! couldn't walk recursiv over directories. something is wrong with wrench.");
+            console.error(error);
+
+            return reject(error);
+        }
+
+        handleResult(resolve, files, pattern);
+    });
+
     return when( function(resolve, reject){
-        wrench.readdirRecursive(root, function(error, files) {
-            console.log( "--  found path ::: " + files[0]);
+        try {
 
-            if(error) {
-                console.error( "!! couldn't walk recursiv over directories. something is wrong with wrench.");
-                console.error(error);
-
-                return reject(error);
-            }
-
-            handleResult(resolve, files, pattern);
-        });
+            reject("error");
+        } catch(exception) {
+           console.log(exception);
+        }
     });
 };
 

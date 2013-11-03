@@ -10,7 +10,8 @@
     "fabrique-render": "0.0.5",
     "rsvp": "~2.0.4",
     "wrench": "~1.5.1",
-    "glob": "~3.2.6"
+    "glob": "~3.2.6",
+    "string": "~1.6.0"
   },
   "devDependencies": {},
   "scripts": {

@@ -2,39 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/sigmund/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/sigmund/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/sigmund/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/bench.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/sigmund/bench.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/test/brace-expand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/test/caching.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/test/defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/test/foreach.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/minimatch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/sigmund/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/minimatch/node_modules/sigmund/sigmund.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\test-fabrique-create.js" afterPath="$PROJECT_DIR$/test/test-fabrique-create.j_" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\test-promise-useModel.js" afterPath="$PROJECT_DIR$/test/test-promise-useModel.j_" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/commands/Commands.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/commands/match-path.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/model/pipe-value.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-promise-match-path.j_" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\test-promise-match-path.js" afterPath="$PROJECT_DIR$/test/test-command-match-path.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/promises/match-path.js" afterPath="$PROJECT_DIR$/impl/promises/match-path.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-promise-match-path.js" afterPath="$PROJECT_DIR$/test/test-promise-match-path.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381844658217" ignored="false" />
+    <file path="/Dummy.txt" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383506187425" ignored="false" />
     <file path="/test-Model.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366812637292" ignored="false" />
     <file path="/app-model.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366827086895" ignored="false" />
     <file path="/databases.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366821707549" ignored="false" />
@@ -128,10 +107,10 @@
     <file path="/use-model.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381752357930" ignored="false" />
     <file path="/test.tmpl.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381149659639" ignored="false" />
     <file path="/create-table.sqlite.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381150865051" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/main.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381838634782" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/main.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381860070679" ignored="false" />
     <file path="/main.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381327474099" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/DashboardView.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381326618664" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/search/krankenhaus.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381842280677" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/search/krankenhaus.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381859645857" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/search/arzt.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381835319149" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/search/apotheke.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381835319149" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/appointments/appointment.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381835319149" ignored="false" />
@@ -155,7 +134,7 @@
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/de.knappschaft.taschendoc/www/js/collections/search/arzt.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381328394351" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/de.knappschaft.taschendoc/www/js/collections/search/krankenhaus.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381328394351" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/de.knappschaft.taschendoc/www/index.html" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381328394351" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/router.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381841462464" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/router.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381859645857" ignored="false" />
     <file path="/router.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381841452009" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/navigation.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381835478941" ignored="false" />
     <file path="/navigation.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381327031396" ignored="false" />
@@ -187,21 +166,28 @@
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/node-backend/import/create-accounts.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381749647834" ignored="false" />
     <file path="/create-accounts.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381749646534" ignored="false" />
     <file path="/test-promise-useModel.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381752948316" ignored="false" />
-    <file path="/match-path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381846235283" ignored="false" />
+    <file path="/match-path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383508953788" ignored="false" />
     <file path="/test-promise-load-modell.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381791813530" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/auth/login.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381842418340" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/auth/login.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381860031147" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/collections/auth/login.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381836539295" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/sdk/auth/login/createURL.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381836470906" ignored="false" />
     <file path="/createURL.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381836451225" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/sdk/search/sync.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381836090232" ignored="false" />
     <file path="/sync.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381836086001" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/models/auth/login.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381836168885" ignored="false" />
-    <file path="/login.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381838173863" ignored="false" />
+    <file path="/login.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381860030187" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/sdk/auth/login/fetch.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381842593149" ignored="false" />
     <file path="/fetch.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381842553299" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/templates/auth/login.html" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381842304282" ignored="false" />
     <file path="/login.html" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381841004749" ignored="false" />
-    <file path="/test-promise-match-path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381844929973" ignored="false" />
+    <file path="/test-promise-match-path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381846366028" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/node-backend/config/database/drugs.schema.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381859347681" ignored="false" />
+    <file path="/drugs.schema.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381859328871" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/node-backend/impl/controls/drugs/updateAppointmentById.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381859585737" ignored="false" />
+    <file path="/fabrique-pipe.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381964591280" ignored="false" />
+    <file path="/Commands.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383507039670" ignored="false" />
+    <file path="/match.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383509494477" ignored="false" />
+    <file path="/test-command-match-path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383509753188" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,28 +207,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test-promise-match-path.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-promise-match-path.js">
+      <file leaf-file-name="Commands.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/commands/Commands.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="28" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/glob/node_modules/minimatch/README.md">
+      <file leaf-file-name="match-path.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/commands/match-path.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="3" selection-start="3906" selection-end="3918" vertical-scroll-proportion="0.0">
+            <state line="23" column="50" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="match-path.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/impl/promises/match-path.js">
+      <file leaf-file-name="test-command-match-path.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test-command-match-path.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="289" selection-end="289" vertical-scroll-proportion="0.33774835">
+            <state line="10" column="53" selection-start="303" selection-end="303" vertical-scroll-proportion="0.23380281">
               <folding />
             </state>
           </provider>
@@ -266,12 +252,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/data/input/classes/Test.class.json" />
-        <option value="$PROJECT_DIR$/impl/file-api.js" />
-        <option value="$PROJECT_DIR$/test/data/schema/test.tmpl.json" />
-        <option value="$PROJECT_DIR$/test/data/schema/create-table.sqlite.json" />
-        <option value="$PROJECT_DIR$/impl/fabrique-model.js" />
-        <option value="$PROJECT_DIR$/test/test-fabrique-create.js" />
         <option value="$PROJECT_DIR$/impl/fabrique-input.js" />
         <option value="$PROJECT_DIR$/impl/use-model.js" />
         <option value="$PROJECT_DIR$/test/test-promise-useModel.js" />
@@ -282,6 +262,12 @@
         <option value="$PROJECT_DIR$/impl/promises/load-model.js" />
         <option value="$PROJECT_DIR$/test/test-promise-match-path.js" />
         <option value="$PROJECT_DIR$/impl/promises/match-path.js" />
+        <option value="$PROJECT_DIR$/impl/fabrique-pipe.js" />
+        <option value="$PROJECT_DIR$/impl/model/pipe-value.js" />
+        <option value="$PROJECT_DIR$/impl/commands/Commands.js" />
+        <option value="$PROJECT_DIR$/impl/commands/match.js" />
+        <option value="$PROJECT_DIR$/impl/commands/match-path.js" />
+        <option value="$PROJECT_DIR$/test/test-command-match-path.js" />
       </list>
     </option>
   </component>
@@ -359,6 +345,94 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="input" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -381,6 +455,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -399,8 +509,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test" />
+      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\data\schema" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\data\input\classes" />
@@ -409,14 +519,14 @@
       <recent name="https://github.com/drdrej/fabrique.git" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\model" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\promises" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\data\input" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\examples\java-helloworld\tasks" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\task" />
-      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\unsorted" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.test-promise-match-path">
+  <component name="RunManager" selected="Node.js.test-command-match-path">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -471,6 +581,13 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
+    <configuration default="false" name="test-command-match-path" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/bin/_mocha" application-parameters="test/test-command-match-path.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
     <configuration default="false" name="script\test\test-Model.js" type="NodeunitConfigurationType" factoryName="Nodeunit">
       <setting name="nodePath" value="C:/Program Files/nodejs/node" />
       <envs />
@@ -483,12 +600,13 @@
       <ConfigurationWrapper RunnerId="Nodeunit.run" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Node.js.without-params" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.test-fabrique-create.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.fabrique prepare-code" />
       <item index="3" class="java.lang.String" itemvalue="Node.js.test-promise-match-path" />
-      <item index="4" class="java.lang.String" itemvalue="Nodeunit.script\test\test-Model.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.test-command-match-path" />
+      <item index="5" class="java.lang.String" itemvalue="Nodeunit.script\test\test-Model.js" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -538,15 +656,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1368" height="776" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1368" height="776" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5857143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28197458" sideWeight="0.6015873" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984127" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28197458" sideWeight="0.6028481" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3971519" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3892405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -554,6 +671,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5857143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39965987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -790,107 +908,98 @@
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/test-promise-match-path.js</url>
-          <line>12</line>
+          <url>file://$PROJECT_DIR$/test/test-promise-match-path.j_</url>
+          <line>13</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
-          <line>11</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
-          <line>15</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/test-promise-match-path.js</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/test/test-promise-match-path.j_</url>
+          <line>18</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/test-promise-match-path.js</url>
-          <line>18</line>
+          <url>file://$PROJECT_DIR$/test/test-promise-match-path.j_</url>
+          <line>20</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/test-promise-match-path.js</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/test/test-promise-match-path.j_</url>
+          <line>16</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
-          <line>47</line>
+          <line>53</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
-          <line>28</line>
+          <line>34</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
-          <line>39</line>
+          <line>45</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
-          <line>48</line>
+          <line>54</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
-          <line>22</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
-          <line>36</line>
+          <line>42</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
-          <line>37</line>
+          <line>43</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
+          <line>28</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
+          <line>24</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
+          <line>12</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/impl/promises/match-path.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/impl/commands/match-path.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/impl/commands/match-path.js</url>
+          <line>17</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="65" />
+      <option name="time" value="75" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/rsvp/dist/commonjs/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/fabrique-model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="7" selection-start="499" selection-end="499" vertical-scroll-proportion="0.5330033" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/promises/load-model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="14" selection-end="14" vertical-scroll-proportion="0.05811966">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-promise-useModel.j_">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="402" selection-end="402" vertical-scroll-proportion="0.37777779" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/fabrique-input.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.028052805">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/rsvp/dist/commonjs/rsvp/promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="0" selection-start="2935" selection-end="2935" vertical-scroll-proportion="0.028052805">
           <folding />
         </state>
       </provider>
@@ -904,9 +1013,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test-fabrique-create.j_">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="306" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="306" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/promises/select-nodes.js">
@@ -928,37 +1035,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/minimatch/test/basic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="294" selection-end="294" vertical-scroll-proportion="-1.14">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="4" selection-start="294" selection-end="294" vertical-scroll-proportion="-1.14" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/minimatch/minimatch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="36" selection-start="3597" selection-end="3597" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-promise-match-path.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="144" column="36" selection-start="3597" selection-end="3597" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/wrench/lib/wrench.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="8" selection-start="3964" selection-end="3964" vertical-scroll-proportion="0.9437086">
+        <state line="119" column="0" selection-start="3452" selection-end="3452" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/rsvp/dist/commonjs/rsvp/promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-promise-match-path.j_">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.39273927">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/model/pipe-value.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="2" selection-end="141" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/commands/Commands.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/promises/match-path.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="289" selection-end="289" vertical-scroll-proportion="0.33774835">
+        <state line="4" column="0" selection-start="108" selection-end="175" vertical-scroll-proportion="0.11221122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/commands/match-path.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-command-match-path.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="53" selection-start="303" selection-end="303" vertical-scroll-proportion="0.23380281">
           <folding />
         </state>
       </provider>
