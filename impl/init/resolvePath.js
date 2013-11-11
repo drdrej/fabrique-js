@@ -4,6 +4,7 @@ exports.resolve = function( path, root ) {
     var pathS = S(path);
 
     var isRelativ = pathS.startsWith( "." );
+
     if( isRelativ ) {
         console.log( "-- resolve relative path." );
 
@@ -11,7 +12,7 @@ exports.resolve = function( path, root ) {
             console.error( "## couldn't resolve relative path. passed param:root is not valid. root = ... "  );
             console.error( root);
 
-            return null;
+            return path;
         }
 
         var rootS = S(root);
@@ -23,9 +24,9 @@ exports.resolve = function( path, root ) {
 
             return root + cutPath;
         } else {
-            var cutPath = path;
-            if( pathS.startsWith("/") ) {
-                return root + path;
+            var cutPath = S(path).substr(1);
+            if( cutPath.startsWith("/") ) {
+                return root + cutPath.toString();
             } else {
                 return root + "/" + path;
             }

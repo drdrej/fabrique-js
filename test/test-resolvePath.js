@@ -11,8 +11,14 @@ describe('Fabrique', function () {
         console.log( "-- root : " + root);
 
         var result = resolvePath( "/test", "c:/root" );
-
         assert.equal("/test", result);
+
+        var result = resolvePath( "./test", "c:/root" );
+        assert.equal("c:/root/test", result);
+
+        var result = resolvePath( "./test", "c:/root" );
+        assert.equal("c:/root/test", result);
+
         done();
     });
 });
