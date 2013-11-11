@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/FabriqueEnv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/cli.old.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/fabrique.old.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-fabrique-env-init.js" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\init\init-env.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\fabrique-cli.js" afterPath="$PROJECT_DIR$/impl/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/fabrique.js" afterPath="$PROJECT_DIR$/impl/fabrique.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/fabrique" afterPath="$PROJECT_DIR$/bin/fabrique" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/init/resolvePath.js" afterPath="$PROJECT_DIR$/impl/init/resolvePath.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-resolvePath.js" afterPath="$PROJECT_DIR$/test/test-resolvePath.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/FabriqueEnv.js" afterPath="$PROJECT_DIR$/impl/FabriqueEnv.js" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -219,19 +208,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FabriqueEnv.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FabriqueEnv.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="32" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.43098593">
+            <state line="13" column="42" selection-start="275" selection-end="275" vertical-scroll-proportion="0.28732395">
               <folding />
             </state>
           </provider>
@@ -307,8 +287,8 @@
         <option value="$PROJECT_DIR$/test/test-fabrique-env-init.js" />
         <option value="$PROJECT_DIR$/bin/fabrique" />
         <option value="$PROJECT_DIR$/impl/cli.js" />
-        <option value="$PROJECT_DIR$/impl/FabriqueEnv.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/impl/FabriqueEnv.js" />
       </list>
     </option>
   </component>
@@ -1009,16 +989,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+        <state line="9" column="49" selection-start="67" selection-end="67" vertical-scroll-proportion="0.43098593">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.43098593">
+        <state line="13" column="42" selection-start="275" selection-end="275" vertical-scroll-proportion="0.28732395">
           <folding />
         </state>
       </provider>

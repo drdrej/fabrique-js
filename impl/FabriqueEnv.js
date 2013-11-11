@@ -11,7 +11,7 @@ var FabriqueEnv = function(root) {
 };
 
 FabriqueEnv.prototype.initConfig = function() {
-    console.log( "## load ./fabrique.json-config");
+    console.log( "## load ./fabrique.json config");
 
     var pathUtil = require( "path" );
     var fullPath = pathUtil.resolve( this.root, "./fabrique.json" );
