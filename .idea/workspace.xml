@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/project1/fabrique.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/init/init-env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/init/resolvePath.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-resolvePath.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383506187425" ignored="false" />
+    <file path="/Dummy.txt" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384148426557" ignored="false" />
     <file path="/test-Model.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366812637292" ignored="false" />
     <file path="/app-model.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366827086895" ignored="false" />
     <file path="/databases.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366821707549" ignored="false" />
@@ -182,6 +185,10 @@
     <file path="/match.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383509494477" ignored="false" />
     <file path="/test-command-match-path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383509753188" ignored="false" />
     <file path="/fabrique.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383557416308" ignored="false" />
+    <file path="/init-log.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383608163763" ignored="false" />
+    <file path="/init-env.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383878509279" ignored="false" />
+    <file path="/resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384148612755" ignored="false" />
+    <file path="/test-resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384148830549" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,37 +208,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Commands.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/commands/Commands.js">
+      <file leaf-file-name="resolvePath.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/init/resolvePath.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
+            <state line="33" column="0" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="match-path.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/commands/match-path.js">
+      <file leaf-file-name="test-resolvePath.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test-resolvePath.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="50" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-command-match-path.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-command-match-path.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="53" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fabrique.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/project1/fabrique.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="77" selection-end="77" vertical-scroll-proportion="0.27142859">
+            <state line="15" column="15" selection-start="436" selection-end="436" vertical-scroll-proportion="0.6647887">
               <folding />
             </state>
           </provider>
@@ -255,11 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/test-promise-useModel.js" />
-        <option value="$PROJECT_DIR$/impl/load-model.js" />
-        <option value="$PROJECT_DIR$/impl/promises/select-nodes.js" />
-        <option value="$PROJECT_DIR$/impl/promises/filter-fields.js" />
-        <option value="$PROJECT_DIR$/test/test-promise-load-modell.js" />
         <option value="$PROJECT_DIR$/impl/promises/load-model.js" />
         <option value="$PROJECT_DIR$/test/test-promise-match-path.js" />
         <option value="$PROJECT_DIR$/impl/promises/match-path.js" />
@@ -271,6 +255,11 @@
         <option value="$PROJECT_DIR$/test/test-command-match-path.js" />
         <option value="$PROJECT_DIR$/test/project1/fabrique.js" />
         <option value="$PROJECT_DIR$/test/project1/fabrique.json" />
+        <option value="$PROJECT_DIR$/impl/init/init-log.js" />
+        <option value="$PROJECT_DIR$/impl/init/init-env.js" />
+        <option value="$PROJECT_DIR$/test/data/test-resolvePath.js" />
+        <option value="$PROJECT_DIR$/impl/init/resolvePath.js" />
+        <option value="$PROJECT_DIR$/test/test-resolvePath.js" />
       </list>
     </option>
   </component>
@@ -428,41 +417,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="input" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,43 +449,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="promises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
+              <option name="myItemId" value="init" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,6 +470,9 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/drdrej/fabrique.git" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules" />
@@ -558,18 +480,15 @@
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\data\schema" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\data\input\classes" />
     </key>
-    <key name="OPEN_URL_DIALOG">
-      <recent name="https://github.com/drdrej/fabrique.git" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\model" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\promises" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\data\input" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\examples\java-helloworld\tasks" />
-      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\task" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.test-command-match-path">
+  <component name="RunManager" selected="Node.js.test-resolvePath">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -596,6 +515,13 @@
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="lib/bin/fabrique.js" working-dir="$PROJECT_DIR$/script">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="without-params" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="impl/fabrique-cli.js" working-dir="$PROJECT_DIR$/">
@@ -631,6 +557,13 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
+    <configuration default="false" name="test-resolvePath" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/bin/_mocha" application-parameters="test/test-resolvePath.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
     <configuration default="false" name="script\test\test-Model.js" type="NodeunitConfigurationType" factoryName="Nodeunit">
       <setting name="nodePath" value="C:/Program Files/nodejs/node" />
       <envs />
@@ -643,13 +576,14 @@
       <ConfigurationWrapper RunnerId="Nodeunit.run" />
       <method />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Node.js.without-params" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.test-fabrique-create.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.fabrique prepare-code" />
       <item index="3" class="java.lang.String" itemvalue="Node.js.test-promise-match-path" />
       <item index="4" class="java.lang.String" itemvalue="Node.js.test-command-match-path" />
-      <item index="5" class="java.lang.String" itemvalue="Nodeunit.script\test\test-Model.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.test-resolvePath" />
+      <item index="6" class="java.lang.String" itemvalue="Nodeunit.script\test\test-Model.js" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -700,14 +634,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1368" height="776" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.585443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28197458" sideWeight="0.41455695" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3971519" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28197458" sideWeight="0.6028481" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3971519" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3892405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -715,6 +648,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5873016" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39965987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1035,57 +969,21 @@
           <line>17</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/test-resolvePath.js</url>
+          <line>12</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/impl/init/resolvePath.js</url>
+          <line>16</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="75" />
+      <option name="time" value="77" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test-fabrique-create.j_">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="306" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/promises/select-nodes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/promises/filter-fields.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/glob/node_modules/minimatch/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="3" selection-start="3906" selection-end="3918" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/minimatch/test/basic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="294" selection-end="294" vertical-scroll-proportion="-1.14" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/minimatch/minimatch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="36" selection-start="3597" selection-end="3597" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/wrench/lib/wrench.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="0" selection-start="3452" selection-end="3452" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/rsvp/dist/commonjs/rsvp/promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test-promise-match-path.j_">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.39273927">
@@ -1095,16 +993,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/model/pipe-value.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="2" selection-end="141" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="2" selection-end="141" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/commands/Commands.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/promises/match-path.js">
@@ -1116,21 +1010,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/commands/match-path.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="50" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-command-match-path.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="53" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+        <state line="23" column="2" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/project1/fabrique.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="77" selection-end="77" vertical-scroll-proportion="0.27142859">
+        <state line="5" column="8" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/init/init-env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="36" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/string/test/mocha.opts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/string/test/browser.test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/string/test/string.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="26" selection-start="1790" selection-end="1791" vertical-scroll-proportion="0.39846742" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/string/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-command-match-path.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="719" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/string/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="19" selection-start="4807" selection-end="4830" vertical-scroll-proportion="-4.3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/use-model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/init/resolvePath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-resolvePath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="15" selection-start="436" selection-end="436" vertical-scroll-proportion="0.6647887">
           <folding />
         </state>
       </provider>
