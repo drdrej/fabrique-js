@@ -1,34 +1,18 @@
-
+var _ = require( 'underscore' );
 
 
 var FabriqueEnv = function(root) {
     this.root = root;
+    console.log("-- use root: " + root );
+
     this.config = this.initConfig();
     //this.checkConfig();
 
     if( !this.config || _.isNull(this.config) ) {
-        throw new Error();
+        // throw new Error();
+        process.exit(0);
     }
 
-    this.startShell();
-};
-
-FabriqueEnv.prototype.startShell = function() {
-    var readline = require('readline');
-
-    var input = readline.createInterface(process.stdin, process.stdout);
-    input.setPrompt('fabrique>');
-    input.prompt();
-
-    input.on( 'line', function(line) {
-        if (line === "exit")
-            input.close();
-
-        input.prompt();
-    }).on('close',function(){
-        // that.closeFabrique();
-        process.exit(0);
-    });
 };
 
 FabriqueEnv.prototype.initConfig = function() {
@@ -49,6 +33,7 @@ FabriqueEnv.prototype.initConfig = function() {
         return;
     }
 
+    /*
     if( !fs.stat().isFile(fullPath) ) {
         console.error( "<error> ");
         console.error( "[WHAT]: couldn't init fabrique. " );
@@ -56,7 +41,7 @@ FabriqueEnv.prototype.initConfig = function() {
         console.error( "</error> ");
 
         return;
-    }
+    } */
 
     var config = require( fullPath );
     console.log("-- fabrique.json successfull loaded. path = " + fullPath );
@@ -68,6 +53,7 @@ exports.create = function(root) {
     exports.header();
 
     var env = new FabriqueEnv(root);
+
     return env;
 };
 
