@@ -1,44 +1,43 @@
 {
-    "name": "fabrique-js",
-    "version": "0.0.2",
-    "description": "a tool to build code and do some automatic development tasks",
-    "main": "api.js",
-
-    "bin": {
-        "fabrique": "./bin/fabrique"
-    },
-
-    "dependencies": {
-        "underscore": "~1.4.4",
-        "optimist": "~0.5.2",
-        "fabrique-log": "0.0.2",
-        "fabrique-render": "0.0.5",
-        "rsvp": "~2.0.4",
-        "wrench": "~1.5.1",
-        "glob": "~3.2.6",
-        "string": "~1.6.0"
-    },
-    "devDependencies": {},
-    "scripts": {
-        "test": "mocha"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/drdrej/fabrique-js"
-    },
-    "keywords": [
-        "code",
-        "generator",
-        "buildr",
-        "appbuildr",
-        "task",
-        "automation",
-        "taks",
-        "dev",
-        "tools"
-    ],
-    "author": "drdrej",
-    "license": "MIT",
-    "gitHead": "1b9c9d4e85b956678d4703180275ff0a0e57d03c",
-    "readmeFilename": "README.md"
+  "name": "fabrique-js",
+  "version": "0.0.3",
+  "description": "a tool to build code and do some automatic development tasks",
+  "main": "api.js",
+  "bin": {
+    "fabrique": "./bin/fabrique"
+  },
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "optimist": "~0.5.2",
+    "fabrique-log": "0.0.2",
+    "fabrique-render": "0.0.5",
+    "rsvp": "~2.0.4",
+    "wrench": "~1.5.1",
+    "glob": "~3.2.6",
+    "string": "~1.6.0",
+    "prompt": "~0.2.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drdrej/fabrique-js"
+  },
+  "keywords": [
+    "code",
+    "generator",
+    "buildr",
+    "appbuildr",
+    "task",
+    "automation",
+    "taks",
+    "dev",
+    "tools"
+  ],
+  "author": "drdrej",
+  "license": "MIT",
+  "gitHead": "1b9c9d4e85b956678d4703180275ff0a0e57d03c",
+  "readmeFilename": "README.md"
 }

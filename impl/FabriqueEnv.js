@@ -4,10 +4,31 @@
 var FabriqueEnv = function(root) {
     this.root = root;
     this.config = this.initConfig();
+    //this.checkConfig();
 
     if( !this.config || _.isNull(this.config) ) {
         throw new Error();
     }
+
+    this.startShell();
+};
+
+FabriqueEnv.prototype.startShell = function() {
+    var readline = require('readline');
+
+    var input = readline.createInterface(process.stdin, process.stdout);
+    input.setPrompt('fabrique>');
+    input.prompt();
+
+    input.on( 'line', function(line) {
+        if (line === "exit")
+            input.close();
+
+        input.prompt();
+    }).on('close',function(){
+        // that.closeFabrique();
+        process.exit(0);
+    });
 };
 
 FabriqueEnv.prototype.initConfig = function() {
