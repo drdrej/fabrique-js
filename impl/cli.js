@@ -56,6 +56,7 @@ var parseLine = function(line) {
 
     // init command to start execution :::
     var cmd = {
+        fabrique: env,
         name : splitted[0]
     };
 
@@ -88,6 +89,7 @@ var pad = function( msg ) {
 };
 
 var useNopt = function(args) {
+    /*
     var nopt = require("nopt");
     var path = require("path");
     var knownOpts = {
@@ -101,19 +103,30 @@ var useNopt = function(args) {
     };
 
     return nopt(knownOpts, shortHands, args, 0);
+    */
+
+    var optparse = require('optparse');
+    var switches = [
+        ['-h', '--help', 'Shows help sections']
+    ];
+
+    var parser = new optparse.OptionParser(switches);
+
+    parser.on('help', function() {
+        console.log( "found:help" );
+    });
+
+    return parser.parse(args);
 };
 
 
 var loadCmd = function( def ) {
-    var package = __dirname + "/commands/" + def.name + "/" + def.name + ".js";
-    console.log( pad("load command: " + package) );
-
-    var Cmd = require(package);
+    var Cmd = require('./commands/Cmd.js');
     var cmd = Cmd.create(def);
 
     cmd.exec();
 
-    return package;
+    return cmd;
 };
 
 

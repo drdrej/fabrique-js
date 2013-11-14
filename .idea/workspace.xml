@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/FabriqueEnv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/cli.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/commands/create/create.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/init/resolvePath.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\cli.old.js" afterPath="$PROJECT_DIR$/old/cli.old.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\command\exec-command.js" afterPath="$PROJECT_DIR$/old/command/exec-command.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\command\load-command.js" afterPath="$PROJECT_DIR$/old/command/load-command.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\commands\Commands.js" afterPath="$PROJECT_DIR$/old/commands/Commands.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\commands\match-path.js" afterPath="$PROJECT_DIR$/old/commands/match-path.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\config\config.js" afterPath="$PROJECT_DIR$/old/config/config.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\fabrique-cli-arguments.js" afterPath="$PROJECT_DIR$/old/fabrique-cli-arguments.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\fabrique-input.js" afterPath="$PROJECT_DIR$/old/fabrique-input.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\fabrique-model.js" afterPath="$PROJECT_DIR$/old/fabrique-model.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\fabrique.js" afterPath="$PROJECT_DIR$/old/fabrique.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\fabrique.old.js" afterPath="$PROJECT_DIR$/old/fabrique.old.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\file-api.js" afterPath="$PROJECT_DIR$/old/file-api.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\model\pipe-value.js" afterPath="$PROJECT_DIR$/old/model/pipe-value.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\promises\filter-fields.js" afterPath="$PROJECT_DIR$/old/promises/filter-fields.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\promises\load-model.js" afterPath="$PROJECT_DIR$/old/promises/load-model.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\promises\match-path.js" afterPath="$PROJECT_DIR$/old/promises/match-path.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\promises\select-nodes.js" afterPath="$PROJECT_DIR$/old/promises/select-nodes.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\query\api.js" afterPath="$PROJECT_DIR$/old/query/api.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\sdk\index.js" afterPath="$PROJECT_DIR$/old/sdk/index.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\sdk\load-model.js" afterPath="$PROJECT_DIR$/old/sdk/load-model.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\sdk\resolve-path.js" afterPath="$PROJECT_DIR$/old/sdk/resolve-path.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\task\load-task.js" afterPath="$PROJECT_DIR$/old/task/load-task.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\task\task-get-commands.js" afterPath="$PROJECT_DIR$/old/task/task-get-commands.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\task\validate-task-desc.js" afterPath="$PROJECT_DIR$/old/task/validate-task-desc.js" />
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\use-model.js" afterPath="$PROJECT_DIR$/old/use-model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/commands/Cmd.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/cli.js" afterPath="$PROJECT_DIR$/impl/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/commands/create/create.js" afterPath="$PROJECT_DIR$/impl/commands/create/create.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -218,7 +191,7 @@
     <file path="/resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384179927842" ignored="false" />
     <file path="/test-resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384148830549" ignored="false" />
     <file path="/test-fabrique-env-init.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384204324685" ignored="false" />
-    <file path="/cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384468857994" ignored="false" />
+    <file path="/cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384470449768" ignored="false" />
     <file path="/FabriqueEnv.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384463365367" ignored="false" />
     <file path="/package.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384223547726" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/fabrique.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224065810" ignored="false" />
@@ -227,7 +200,8 @@
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224619606" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384226786825" ignored="false" />
     <file path="/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384226778380" ignored="false" />
-    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384468835255" ignored="false" />
+    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384470680172" ignored="false" />
+    <file path="/Cmd.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384470762245" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,16 +224,16 @@
       <file leaf-file-name="FabriqueEnv.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+            <state line="19" column="13" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cli.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cli.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/cli.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="19" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.5778146">
+            <state line="58" column="22" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -268,7 +242,16 @@
       <file leaf-file-name="create.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/commands/create/create.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+            <state line="2" column="69" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cmd.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/impl/commands/Cmd.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="16" selection-start="298" selection-end="298" vertical-scroll-proportion="0.39403972">
               <folding />
             </state>
           </provider>
@@ -310,7 +293,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/test-command-match-path.js" />
         <option value="$PROJECT_DIR$/test/project1/fabrique.js" />
         <option value="$PROJECT_DIR$/test/project1/fabrique.json" />
         <option value="$PROJECT_DIR$/impl/init/init-log.js" />
@@ -324,8 +306,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/impl/FabriqueEnv.js" />
-        <option value="$PROJECT_DIR$/impl/commands/create/create.js" />
         <option value="$PROJECT_DIR$/impl/cli.js" />
+        <option value="$PROJECT_DIR$/impl/commands/create/create.js" />
+        <option value="$PROJECT_DIR$/impl/commands/Cmd.js" />
       </list>
     </option>
   </component>
@@ -409,6 +392,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="init" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -921,13 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/old/command/exec-command.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -951,14 +945,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/commands/create/create.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+        <state line="2" column="69" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/cli.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="19" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.5778146">
+        <state line="58" column="22" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/commands/Cmd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="298" selection-end="298" vertical-scroll-proportion="0.39403972">
           <folding />
         </state>
       </provider>
