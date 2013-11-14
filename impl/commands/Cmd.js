@@ -3,11 +3,11 @@ var Cmd = function (def) {
 };
 
 Cmd.prototype.exec = function () {
-    console.log("exec cmd: " + this.def.name);
+    console.log("skip cmd: " + this.def.name);
 };
 
 Cmd.prototype.resolveGenerator = function () {
-
+    this.fabrique
 };
 
 exports.create = function (def) {

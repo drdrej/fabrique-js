@@ -1,4 +1,5 @@
 var _ = require( 'underscore' );
+var Path = require('./config/Path.js');
 
 
 var FabriqueEnv = function(root) {
@@ -6,7 +7,8 @@ var FabriqueEnv = function(root) {
     console.log("-- use root: " + root );
 
     this.config = this.initConfig();
-    //this.checkConfig();
+
+    Path.resolve(this.config);
 
     if( !this.config || _.isNull(this.config) ) {
         // throw new Error();
@@ -45,6 +47,8 @@ FabriqueEnv.prototype.initConfig = function() {
 
     var config = require( fullPath );
     console.log("-- fabrique.json successfull loaded. path = " + fullPath );
+
+    config.root = this.root;
 
     return config;
 };

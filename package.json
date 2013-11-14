@@ -17,7 +17,8 @@
     "string": "~1.6.0",
     "prompt": "~0.2.11",
     "nopt": "~2.1.2",
-    "optparse": "~1.0.4"
+    "optparse": "~1.0.4",
+    "JSONSelect": "~0.4.0"
   },
   "devDependencies": {},
   "scripts": {
