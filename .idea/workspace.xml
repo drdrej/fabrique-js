@@ -2,7 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/FabriqueEnv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/commands/create/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old/init/resolvePath.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\cli.old.js" afterPath="$PROJECT_DIR$/old/cli.old.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\command\exec-command.js" afterPath="$PROJECT_DIR$/old/command/exec-command.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\command\load-command.js" afterPath="$PROJECT_DIR$/old/command/load-command.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\commands\Commands.js" afterPath="$PROJECT_DIR$/old/commands/Commands.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\commands\match-path.js" afterPath="$PROJECT_DIR$/old/commands/match-path.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\config\config.js" afterPath="$PROJECT_DIR$/old/config/config.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\fabrique-cli-arguments.js" afterPath="$PROJECT_DIR$/old/fabrique-cli-arguments.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\fabrique-input.js" afterPath="$PROJECT_DIR$/old/fabrique-input.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\fabrique-model.js" afterPath="$PROJECT_DIR$/old/fabrique-model.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\fabrique.js" afterPath="$PROJECT_DIR$/old/fabrique.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\fabrique.old.js" afterPath="$PROJECT_DIR$/old/fabrique.old.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\file-api.js" afterPath="$PROJECT_DIR$/old/file-api.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\model\pipe-value.js" afterPath="$PROJECT_DIR$/old/model/pipe-value.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\promises\filter-fields.js" afterPath="$PROJECT_DIR$/old/promises/filter-fields.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\promises\load-model.js" afterPath="$PROJECT_DIR$/old/promises/load-model.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\promises\match-path.js" afterPath="$PROJECT_DIR$/old/promises/match-path.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\promises\select-nodes.js" afterPath="$PROJECT_DIR$/old/promises/select-nodes.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\query\api.js" afterPath="$PROJECT_DIR$/old/query/api.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\sdk\index.js" afterPath="$PROJECT_DIR$/old/sdk/index.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\sdk\load-model.js" afterPath="$PROJECT_DIR$/old/sdk/load-model.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\sdk\resolve-path.js" afterPath="$PROJECT_DIR$/old/sdk/resolve-path.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\task\load-task.js" afterPath="$PROJECT_DIR$/old/task/load-task.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\task\task-get-commands.js" afterPath="$PROJECT_DIR$/old/task/task-get-commands.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\task\validate-task-desc.js" afterPath="$PROJECT_DIR$/old/task/validate-task-desc.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\use-model.js" afterPath="$PROJECT_DIR$/old/use-model.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/cli.js" afterPath="$PROJECT_DIR$/impl/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -187,7 +218,7 @@
     <file path="/resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384179927842" ignored="false" />
     <file path="/test-resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384148830549" ignored="false" />
     <file path="/test-fabrique-env-init.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384204324685" ignored="false" />
-    <file path="/cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384465607999" ignored="false" />
+    <file path="/cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384468857994" ignored="false" />
     <file path="/FabriqueEnv.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384463365367" ignored="false" />
     <file path="/package.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384223547726" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/fabrique.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224065810" ignored="false" />
@@ -196,6 +227,7 @@
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224619606" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384226786825" ignored="false" />
     <file path="/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384226778380" ignored="false" />
+    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384468835255" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +259,34 @@
       <file leaf-file-name="cli.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/impl/cli.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="23" selection-start="705" selection-end="705" vertical-scroll-proportion="0.8592715">
+            <state line="104" column="19" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.5778146">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/commands/create/create.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="27" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exec-command.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old/command/exec-command.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/java-helloworld/model/app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -251,7 +310,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/impl/commands/match-path.js" />
         <option value="$PROJECT_DIR$/test/test-command-match-path.js" />
         <option value="$PROJECT_DIR$/test/project1/fabrique.js" />
         <option value="$PROJECT_DIR$/test/project1/fabrique.json" />
@@ -266,6 +324,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/impl/FabriqueEnv.js" />
+        <option value="$PROJECT_DIR$/impl/commands/create/create.js" />
         <option value="$PROJECT_DIR$/impl/cli.js" />
       </list>
     </option>
@@ -345,6 +404,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="init" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -365,15 +478,15 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/drdrej/fabrique.git" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\old" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\data\schema" />
-      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\data\input\classes" />
-    </key>
-    <key name="OPEN_URL_DIALOG">
-      <recent name="https://github.com/drdrej/fabrique.git" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl" />
@@ -631,124 +744,14 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/command/load-command.js</url>
-          <line>32</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>8</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/test-fabrique-create.j_</url>
           <line>34</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/use-model.js</url>
-          <line>23</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/use-model.js</url>
-          <line>25</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>55</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>60</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>63</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/test-fabrique-create.j_</url>
           <line>37</line>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/use-model.js</url>
-          <line>24</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/use-model.js</url>
-          <line>48</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>11</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>9</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>62</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>50</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>13</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>19</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>34</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>37</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>41</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>44</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>39</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/fabrique-input.js</url>
-          <line>35</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/use-model.js</url>
-          <line>30</line>
-          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/node_modules/rsvp/dist/commonjs/rsvp/promise.js</url>
@@ -759,26 +762,6 @@
           <url>file://$PROJECT_DIR$/node_modules/rsvp/dist/commonjs/rsvp/promise.js</url>
           <line>178</line>
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/use-model.js</url>
-          <line>16</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/use-model.js</url>
-          <line>41</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/use-model.js</url>
-          <line>44</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/use-model.js</url>
-          <line>40</line>
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/test-promise-match-path.j_</url>
@@ -885,11 +868,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/string/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test-command-match-path.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="719" vertical-scroll-proportion="0.0" />
@@ -900,13 +878,6 @@
         <state line="122" column="19" selection-start="4807" selection-end="4830" vertical-scroll-proportion="-4.3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/use-model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/init/resolvePath.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="50" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.55409837">
@@ -914,26 +885,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/cli.old.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="2" selection-start="1280" selection-end="1316" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/fabrique.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.3617021" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test-resolvePath.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="27" selection-start="628" selection-end="628" vertical-scroll-proportion="0.85531914">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/fabrique.old.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test-fabrique-env-init.js">
@@ -972,9 +928,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/old/command/exec-command.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/java-helloworld/tasks/prepare-code.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/java-helloworld/model/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/commands/create/create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/impl/cli.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="23" selection-start="705" selection-end="705" vertical-scroll-proportion="0.8592715">
+        <state line="104" column="19" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.5778146">
           <folding />
         </state>
       </provider>

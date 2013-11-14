@@ -59,8 +59,6 @@ var parseLine = function(line) {
         name : splitted[0]
     };
 
-    var cmdPath = loadCmd(cmd);
-
     console.log(pad("try to exec command: " + cmd.name ));
 
     // parse command :::
@@ -104,16 +102,5 @@ var useNopt = function(args) {
 };
 
 
-var loadCmd = function( def ) {
-    var package = __dirname + "/commands/" + def.name + "/" + def.name + ".js";
-    console.log( pad("load command: " + package) );
-
-    var Cmd = require(package);
-    var cmd = Cmd.create(def);
-
-    cmd.exec();
-
-    return package;
-};
 
 

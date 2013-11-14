@@ -15,7 +15,8 @@
     "wrench": "~1.5.1",
     "glob": "~3.2.6",
     "string": "~1.6.0",
-    "prompt": "~0.2.11"
+    "prompt": "~0.2.11",
+    "nopt": "~2.1.2"
   },
   "devDependencies": {},
   "scripts": {
