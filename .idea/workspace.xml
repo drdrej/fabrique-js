@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/FabriqueEnv.js" afterPath="$PROJECT_DIR$/impl/FabriqueEnv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/commands/Cmd.js" afterPath="$PROJECT_DIR$/impl/commands/Cmd.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/config/Path.js" afterPath="$PROJECT_DIR$/impl/config/Path.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/cli.js" afterPath="$PROJECT_DIR$/impl/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/commands/create/create.js" afterPath="$PROJECT_DIR$/impl/commands/create/create.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -189,7 +191,7 @@
     <file path="/resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384179927842" ignored="false" />
     <file path="/test-resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384148830549" ignored="false" />
     <file path="/test-fabrique-env-init.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384204324685" ignored="false" />
-    <file path="/cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384470449768" ignored="false" />
+    <file path="/cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384547447342" ignored="false" />
     <file path="/FabriqueEnv.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384473033674" ignored="false" />
     <file path="/package.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384223547726" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/fabrique.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224065810" ignored="false" />
@@ -198,9 +200,9 @@
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224619606" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384226786825" ignored="false" />
     <file path="/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384226778380" ignored="false" />
-    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384470680172" ignored="false" />
-    <file path="/Cmd.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384470841932" ignored="false" />
-    <file path="/Path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384536156971" ignored="false" />
+    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384548530943" ignored="false" />
+    <file path="/Cmd.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384548572733" ignored="false" />
+    <file path="/Path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384537509979" ignored="false" />
     <file path="/out.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384471732855" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -230,10 +232,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Path.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Path.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="23" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.48397976">
+            <state line="17" column="24" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -242,7 +244,7 @@
       <file leaf-file-name="cli.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/cli.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="22" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
+            <state line="92" column="35" selection-start="1916" selection-end="1916" vertical-scroll-proportion="-11.46">
               <folding />
             </state>
           </provider>
@@ -251,18 +253,16 @@
       <file leaf-file-name="create.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/commands/create/create.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="69" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1384470689295" expanded="true" signature="27:103" placeholder="{...}" />
-              </folding>
+            <state line="9" column="20" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cmd.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Cmd.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/impl/commands/Cmd.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="43" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+            <state line="60" column="36" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.7859712">
               <folding />
             </state>
           </provider>
@@ -314,12 +314,12 @@
         <option value="$PROJECT_DIR$/bin/fabrique" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/impl/cli.js" />
-        <option value="$PROJECT_DIR$/impl/commands/create/create.js" />
-        <option value="$PROJECT_DIR$/impl/commands/Cmd.js" />
         <option value="$PROJECT_DIR$/impl/out/out.js" />
         <option value="$PROJECT_DIR$/impl/FabriqueEnv.js" />
         <option value="$PROJECT_DIR$/impl/config/Path.js" />
+        <option value="$PROJECT_DIR$/impl/cli.js" />
+        <option value="$PROJECT_DIR$/impl/commands/create/create.js" />
+        <option value="$PROJECT_DIR$/impl/commands/Cmd.js" />
       </list>
     </option>
   </component>
@@ -930,16 +930,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test-resolvePath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="628" selection-end="628" vertical-scroll-proportion="0.85531914">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test-fabrique-env-init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" />
+        <state line="9" column="20" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/lib/runnable.js">
@@ -964,13 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/old/command/exec-command.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/java-helloworld/tasks/prepare-code.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -983,15 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/commands/create/create.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="69" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1384470689295" expanded="true" signature="27:103" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/out/out.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="21" selection-start="203" selection-end="203" vertical-scroll-proportion="0.16887417">
@@ -999,23 +978,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/cli.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="22" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/commands/Cmd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="43" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/JSONSelect/src/jsonselect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="562" column="12" selection-start="20512" selection-end="20512" vertical-scroll-proportion="0.5397631" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/init/resolvePath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.48679867">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
@@ -1027,7 +999,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="23" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.48397976">
+        <state line="17" column="24" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/command/exec-command.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/cli.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="35" selection-start="1916" selection-end="1916" vertical-scroll-proportion="-11.46">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/commands/create/create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="20" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/commands/Cmd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="36" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.7859712">
           <folding />
         </state>
       </provider>

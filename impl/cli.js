@@ -54,13 +54,14 @@ var parseLine = function(line) {
         return;
     }
 
-    // init command to start execution :::
     var cmd = {
         fabrique: env,
         name : splitted[0]
     };
 
-    var cmdPath = loadCmd(cmd);
+    var executable = loadCmd(cmd);
+    if(!executable)
+        return;
 
     console.log(pad("try to exec command: " + cmd.name ));
 
@@ -79,8 +80,11 @@ var parseLine = function(line) {
         console.log( "arg: " + arg );
     });
 
-    var parsed = useNopt(parsedArgs);
+    var parsed = executable.cli(parsedArgs);
+    console.log( ">>>> parsed ::::: ");
     console.log(parsed);
+
+    executable.exec();
 };
 
 var pad = function( msg ) {
@@ -88,43 +92,15 @@ var pad = function( msg ) {
     return S(msg).padLeft((msg.length + 5)).toString();
 };
 
-var useNopt = function(args) {
-    /*
-    var nopt = require("nopt");
-    var path = require("path");
-    var knownOpts = {
-       "resource" : String,
-       "overwrite" : Boolean
-
-    };
-    var shortHands = {
-       "r" : ["resource"],
-       "o" : ["overwrite"]
-    };
-
-    return nopt(knownOpts, shortHands, args, 0);
-    */
-
-    var optparse = require('optparse');
-    var switches = [
-        ['-h', '--help', 'Shows help sections']
-    ];
-
-    var parser = new optparse.OptionParser(switches);
-
-    parser.on('help', function() {
-        console.log( "found:help" );
-    });
-
-    return parser.parse(args);
-};
-
 
 var loadCmd = function( def ) {
     var Cmd = require('./commands/Cmd.js');
     var cmd = Cmd.create(def);
 
-    cmd.exec();
+    if( !cmd ) {
+        console.log("couldn't execute command: " + def.name);
+        return null;
+    }
 
     return cmd;
 };

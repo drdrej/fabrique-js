@@ -4,8 +4,6 @@ var fs = require('fs');
 var out = require("../out/out.js" );
 var select = require('JSONSelect');
 
-// var fullPath = pathUtil.resolve( this.root, "./fabrique.json" );
-
 exports.resolveAll = function (config) {
     config.output = resolve( config.root, "config.output", config.output, 1001);
 
@@ -18,7 +16,20 @@ exports.resolveAll = function (config) {
     });
 };
 
-// TODO: HIER WEITER MACHEN!!! TOOLSET aufloesen und ausführen.
+exports.resolve = resolve;
+
+exports.exists = exists;
+
+var exists = function( path ) {
+    var has = (path && _.isString(path) && fs.existsSync(path) )
+    if( !has ) {
+        out.err( "Couldn't exec fabrique.", "fabrique-path of type " + pathName + " doesn't exists. path = " + resolved, errCode );
+        return false;
+    }
+
+    return true;
+};
+
 var resolve = function(root, pathName, value, errCode) {
     console.log("parse " + pathName + " = " + value );
 
@@ -30,10 +41,7 @@ var resolve = function(root, pathName, value, errCode) {
     }
 
     var resolved = pathUtil.resolve( root, trimmed );
-    if( !(resolved && _.isString(resolved) && fs.existsSync(resolved) ) ) {
-        out.err( "Couldn't exec fabrique.", "fabrique-path of type " + pathName + " doesn't exists. path = " + resolved, errCode );
-        return;
-    }
+    exists(resolved);
 
     return resolved;
 };
