@@ -8,7 +8,7 @@ var FabriqueEnv = function(root) {
 
     this.config = this.initConfig();
 
-    Path.resolve(this.config);
+    Path.resolveAll(this.config);
 
     if( !this.config || _.isNull(this.config) ) {
         // throw new Error();

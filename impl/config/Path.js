@@ -6,36 +6,47 @@ var select = require('JSONSelect');
 
 // var fullPath = pathUtil.resolve( this.root, "./fabrique.json" );
 
-exports.resolve = function (config) {
-    /*
-     {
-     "output"  : "c:\temp",
-     "toolset" : [
-     {
-     "id" : "fabrique:java-prj",
-     "path" : "./toolset/java-prj"
-     }
-     ]
-     }
-     */
+exports.resolveAll = function (config) {
+    config.output = resolve( config.root, "config.output", config.output, 1001);
 
-    console.log("parse config.output = " + config.output );
+    var toolset = new ToolSet(config);
+
+    // Handle toolset :::
+    var selected = select.match( ".toolset > *", config );
+    _.each(selected, function( def ) {
+         toolset.load(def);
+    });
+};
+
+// TODO: HIER WEITER MACHEN!!! TOOLSET aufloesen und ausführen.
+var resolve = function(root, pathName, value, errCode) {
+    console.log("parse " + pathName + " = " + value );
 
     var trimmed = "";
-    if (!(config.output && _.isString(config.output)
-        && (trimmed = config.output.trim()).length > 0)) {
-        out.err( "Couldn't exec fabrique.", "couldn't resolve output-path.:" + config.output, 1001 );
+    if (!(value && _.isString(value)
+        && (trimmed = value.trim()).length > 0)) {
+        out.err( "Couldn't exec fabrique.", "couldn't resolve output-path.:" + value, errCode );
         return;
     }
 
-    var resolved = pathUtil.resolve( config.root, trimmed );
+    var resolved = pathUtil.resolve( root, trimmed );
     if( !(resolved && _.isString(resolved) && fs.existsSync(resolved) ) ) {
-        out.err( "Couldn't exec fabrique.", "fabrique.outout-path doesn't exists. path = " + resolved, 1001 );
+        out.err( "Couldn't exec fabrique.", "fabrique-path of type " + pathName + " doesn't exists. path = " + resolved, errCode );
         return;
     }
 
-    // resolve toolsets:
+    return resolved;
+};
 
 
+var ToolSet = function(config) {
+   this.config = config;
+};
 
+ToolSet.prototype.load = function(def) {
+    def.absolutePath =  resolve( this.config.root, "config.toolset[ " + def.id + " ].path", def.path, 1002);
+
+    console.log("resolved toolset-path: " + def.absolutePath );
+
+    return this;
 };
