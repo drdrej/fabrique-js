@@ -20,11 +20,9 @@ Cmd.prototype.ext = function(ext) {
         switches.push([ shortName(arg.short), fullName(arg.name, arg.type), "command description" ]);
     });
 
-    console.log(switches);
-
     var parser = new optparse.OptionParser(switches);
     _.each( this.args, function(arg) {
-        console.log( "-- bind cli.parser: " + arg.name + " to handler: " + arg.handler );
+        // console.log( "-- bind cli.parser: " + arg.name + " to handler: " + arg.handler );
         parser.on(arg.name, arg.handler);
     });
 
@@ -32,7 +30,7 @@ Cmd.prototype.ext = function(ext) {
 };
 
 Cmd.prototype.cli = function (args) {
-    return this.argsParser.parse(args);
+    this.argsParser.parse(args);
 };
 
 exports.create = function (def) {

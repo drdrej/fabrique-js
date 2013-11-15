@@ -63,7 +63,7 @@ var parseLine = function(line) {
     if(!executable)
         return;
 
-    console.log(pad("try to exec command: " + cmd.name ));
+    // console.log(pad("try to exec command: " + cmd.name ));
 
     // parse command :::
     var args = splitted.slice(1);
@@ -76,14 +76,14 @@ var parseLine = function(line) {
         parsedArgs.push(arg);
     });
 
+    /*
+    remove later:
     _.each(parsedArgs, function(arg){
         console.log( "arg: " + arg );
     });
+    */
 
-    var parsed = executable.cli(parsedArgs);
-    console.log( ">>>> parsed ::::: ");
-    console.log(parsed);
-
+    executable.cli(parsedArgs);
     executable.exec();
 };
 
