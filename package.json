@@ -19,7 +19,8 @@
     "nopt": "~2.1.2",
     "optparse": "~1.0.4",
     "JSONSelect": "~0.4.0",
-    "backbone": "~1.1.0"
+    "backbone": "~1.1.0",
+    "crossroads": "~0.12.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -41,7 +42,7 @@
     "tools"
   ],
   "author": "drdrej",
-  "license": "MIT",
+  "license": "GPL",
   "gitHead": "1b9c9d4e85b956678d4703180275ff0a0e57d03c",
   "readmeFilename": "README.md"
 }
