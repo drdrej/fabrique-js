@@ -21,7 +21,11 @@ Create.prototype.validateCLI = function() {
     }
 
     if( !hasResource ) {
-         out.err("Couldn't exec fabrique.", "fabrique needs an option --resource (short: -r) $path", -1);
+         console.error("-- fabrique needs an option --resource (short: -r) $path");
+    }
+
+    if( !hasToolset ) {
+        console.error("-- fabrique needs an option --toolset (short: -t) $toolset.id");
     }
 
     return false;

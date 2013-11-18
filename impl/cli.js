@@ -89,11 +89,16 @@ var loadCmd = function( def, parsedArgs ) {
     var cmd = Cmd.create(def);
 
     if( !cmd ) {
-        console.log("couldn't execute command: " + def.name);
+        console.error("couldn't execute command: " + def.name);
         return null;
     }
 
-    cmd.cli(parsedArgs);
+    var validated = cmd.cli(parsedArgs);
+    if( !validated ) {
+        console.error("couldn't execute command: " + def.name);
+        return null;
+    }
+
     cmd.loadConfig();
 
     return cmd;

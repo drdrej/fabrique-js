@@ -50,7 +50,7 @@ Cmd.prototype.putOption = function( option, value ) {
 
 Cmd.prototype.cli = function (args) {
     this.argsParser.parse(args);
-    this.validateCLI();
+    return this.validateCLI();
 };
 
 
