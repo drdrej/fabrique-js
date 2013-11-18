@@ -59,12 +59,6 @@ var parseLine = function(line) {
         name : splitted[0]
     };
 
-    var executable = loadCmd(cmd);
-    if(!executable)
-        return;
-
-    // console.log(pad("try to exec command: " + cmd.name ));
-
     // parse command :::
     var args = splitted.slice(1);
     var parsedArgs = [];
@@ -76,14 +70,11 @@ var parseLine = function(line) {
         parsedArgs.push(arg);
     });
 
-    /*
-    remove later:
-    _.each(parsedArgs, function(arg){
-        console.log( "arg: " + arg );
-    });
-    */
+    var executable = loadCmd(cmd, parsedArgs);
+    if(!executable)
+        return;
 
-    executable.cli(parsedArgs);
+
     executable.exec();
 };
 
@@ -93,7 +84,7 @@ var pad = function( msg ) {
 };
 
 
-var loadCmd = function( def ) {
+var loadCmd = function( def, parsedArgs ) {
     var Cmd = require('./commands/Cmd.js');
     var cmd = Cmd.create(def);
 
@@ -101,6 +92,13 @@ var loadCmd = function( def ) {
         console.log("couldn't execute command: " + def.name);
         return null;
     }
+
+    cmd.cli(parsedArgs);
+
+    console.log("###### parsed ::: " + cmd );
+    console.log(cmd);
+
+    cmd.loadConfig();
 
     return cmd;
 };

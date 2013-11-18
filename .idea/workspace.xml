@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="$PROJECT_DIR$/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/commands/Cmd.js" afterPath="$PROJECT_DIR$/impl/commands/Cmd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/cli.js" afterPath="$PROJECT_DIR$/impl/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/commands/create/create.js" afterPath="$PROJECT_DIR$/impl/commands/create/create.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384690196827" ignored="false" />
+    <file path="/Dummy.txt" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384775920723" ignored="false" />
     <file path="/test-Model.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366812637292" ignored="false" />
     <file path="/app-model.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366827086895" ignored="false" />
     <file path="/databases.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366821707549" ignored="false" />
     <file path="/project.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366822559106" ignored="false" />
-    <file path="/a.dummy" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384549554488" ignored="false" />
+    <file path="/a.dummy" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384724677388" ignored="false" />
     <file path="/cleanup.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366824077993" ignored="false" />
     <file path="/create-directory-structure.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366824744385" ignored="false" />
     <file path="/query-json-select.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366846268083" ignored="false" />
@@ -189,7 +190,7 @@
     <file path="/resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384179927842" ignored="false" />
     <file path="/test-resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384148830549" ignored="false" />
     <file path="/test-fabrique-env-init.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384204324685" ignored="false" />
-    <file path="/cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384547447342" ignored="false" />
+    <file path="/cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384739120110" ignored="false" />
     <file path="/FabriqueEnv.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384473033674" ignored="false" />
     <file path="/package.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384223547726" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/fabrique.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224065810" ignored="false" />
@@ -198,8 +199,8 @@
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224619606" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384226786825" ignored="false" />
     <file path="/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384226778380" ignored="false" />
-    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384549808055" ignored="false" />
-    <file path="/Cmd.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384548572733" ignored="false" />
+    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384778988436" ignored="false" />
+    <file path="/Cmd.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384781676307" ignored="false" />
     <file path="/Path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384537509979" ignored="false" />
     <file path="/out.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384471732855" ignored="false" />
     <file path="/LICENSE.md" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384690109099" ignored="false" />
@@ -225,7 +226,7 @@
       <file leaf-file-name="FabriqueEnv.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+            <state line="35" column="58" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -234,7 +235,7 @@
       <file leaf-file-name="Path.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="24" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+            <state line="54" column="5" selection-start="1392" selection-end="1407" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -243,7 +244,7 @@
       <file leaf-file-name="cli.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/cli.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="7" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0">
+            <state line="95" column="10" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -252,43 +253,16 @@
       <file leaf-file-name="create.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/commands/create/create.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="38" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+            <state line="61" column="9" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="17" selection-start="929" selection-end="929" vertical-scroll-proportion="-16.653847">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LICENSE.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="64" selection-start="113" selection-end="113" vertical-scroll-proportion="0.11623932">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cmd.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Cmd.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/impl/commands/Cmd.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="14" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
+            <state line="124" column="0" selection-start="2910" selection-end="2910" vertical-scroll-proportion="0.6137184">
               <folding />
             </state>
           </provider>
@@ -340,12 +314,12 @@
         <option value="$PROJECT_DIR$/impl/out/out.js" />
         <option value="$PROJECT_DIR$/impl/FabriqueEnv.js" />
         <option value="$PROJECT_DIR$/impl/config/Path.js" />
-        <option value="$PROJECT_DIR$/impl/commands/Cmd.js" />
-        <option value="$PROJECT_DIR$/impl/cli.js" />
-        <option value="$PROJECT_DIR$/impl/commands/create/create.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/LICENSE.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/impl/cli.js" />
+        <option value="$PROJECT_DIR$/impl/commands/create/create.js" />
+        <option value="$PROJECT_DIR$/impl/commands/Cmd.js" />
       </list>
     </option>
   </component>
@@ -740,6 +714,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58702534" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28197458" sideWeight="0.4129747" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984127" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -750,7 +725,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58702534" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39965987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -995,16 +969,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+        <state line="4" column="64" selection-start="113" selection-end="113" vertical-scroll-proportion="0.11623932">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
+    <entry file="file://$PROJECT_DIR$/LICENSE.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.28052804">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="17" selection-start="929" selection-end="929" vertical-scroll-proportion="0.74655175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="58" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1016,44 +1004,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/commands/Cmd.js">
+    <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="14" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
+        <state line="54" column="5" selection-start="1392" selection-end="1407" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/cli.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="7" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0">
+        <state line="95" column="10" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/commands/create/create.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+        <state line="61" column="9" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/impl/commands/Cmd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="17" selection-start="929" selection-end="929" vertical-scroll-proportion="-16.653847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="64" selection-start="113" selection-end="113" vertical-scroll-proportion="0.11623932">
+        <state line="124" column="0" selection-start="2910" selection-end="2910" vertical-scroll-proportion="0.6137184">
           <folding />
         </state>
       </provider>
