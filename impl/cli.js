@@ -94,10 +94,6 @@ var loadCmd = function( def, parsedArgs ) {
     }
 
     cmd.cli(parsedArgs);
-
-    console.log("###### parsed ::: " + cmd );
-    console.log(cmd);
-
     cmd.loadConfig();
 
     return cmd;

@@ -1,4 +1,5 @@
 var _ = require('underscore');
+var out = require("../../out/out.js" );
 
 var Create = function () {
     ;
@@ -8,6 +9,23 @@ Create.prototype.configure = function () {
     var routes = this.config.routes;
     this.initRoutes(routes);
 }
+
+Create.prototype.validateCLI = function() {
+    var opts = this.options;
+
+    var hasResource = opts.resource && _.isString(opts.resource) && (opts.resource.length > 0);
+    var hasToolset = opts.toolset && _.isString(opts.toolset) && (opts.toolset.length > 0);
+
+    if( hasResource && hasToolset ) {
+        return true;
+    }
+
+    if( !hasResource ) {
+         out.err("Couldn't exec fabrique.", "fabrique needs an option --resource (short: -r) $path", -1);
+    }
+
+    return false;
+};
 
 Create.prototype.initRoutes = function (routes) {
     var crossroads = require('crossroads');
@@ -47,6 +65,8 @@ exports.create = function () {
 }
 
 
+
+
 /**
  * creates args to parse them with cmd.args.parser
  *
@@ -67,9 +87,6 @@ exports.args = function (cmd) {
             type: "TEXT",
             short: "r",
             handler: function(option, value) {
-                console.log("+++++++++++++++++++++++++++++++++++++++");
-                console.log(cmd);
-
                 cmd.putOption(option, value);
             }
         },

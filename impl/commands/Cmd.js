@@ -13,6 +13,7 @@ Cmd.prototype.ext = function(impl) {
 
     this.exec = impl.exec;
     this.configure = impl.configure;
+    this.validateCLI = impl.validateCLI;
 };
 
 Cmd.prototype.bind = function( extension ) {
@@ -34,7 +35,6 @@ Cmd.prototype.bindArgs = function(ext) {
 
     var parser = new optparse.OptionParser(switches);
     _.each( this.args, function(arg) {
-        // console.log( "-- bind cli.parser: " + arg.name + " to handler: " + arg.handler );
         parser.on(arg.name, arg.handler);
     });
 
@@ -45,34 +45,27 @@ Cmd.prototype.bindArgs = function(ext) {
 Cmd.prototype.putOption = function( option, value ) {
     console.log("-- uses " + option + ": " + value);
     this.options[option] = value;
-
-    console.log( ">> this.options == ");
-    console.log( this.options );
-
-    // console.log( ">>> call putOption()" );
-    // console.log( this );
 };
 
 
 Cmd.prototype.cli = function (args) {
     this.argsParser.parse(args);
+    this.validateCLI();
 };
 
 
 Cmd.prototype.configPath = function() {
-    console.log( "############### --> ");
-    console.log(this.def);
+    var toolset = this.toolsetPath();
+    console.log( "-- toolset ::: " + toolset );
 
-    console.log( this.options );
-
-    // var toolset = this.toolsetPath();
-    var toolset = "";
+    if( toolset == null )
+        return null;
 
     return  toolset + "/config/" + this.def.name + ".json";
 };
 
 Cmd.prototype.toolsetPath = function() {
-    var name = this.parsedArgs.toolset;
+    var name = this.options.toolset;
     console.log("-- resolve path for toolset: " + name);
 
     var path = null;
@@ -83,20 +76,25 @@ Cmd.prototype.toolsetPath = function() {
         }
     });
 
-    console.log("## ## found path: " + path);
-
     return path;
 };
 
 Cmd.prototype.loadConfig = function() {
+    this.config = {};
     var path = this.configPath(this.def);
+
+    if( !path ) {
+        console.log("couldn't load toolset-configuration.");
+        return;
+    }
+
+    console.log( "-- use toolset-config-path :" + path );
 
     try {
         this.config = require( path );
         this.configure();
     } catch( err ) {
-        this.config = {};
-        console.error("command " + this.def.name + " doesn't configurated. config not loaded.");
+        console.error("for command '" + this.def.name + "' configuration is broken" );
         console.error(err);
 
         return;
@@ -125,23 +123,6 @@ exports.create = function (def) {
 
     return cmd;
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 var loadCmdImpl = function(def) {
     try {
