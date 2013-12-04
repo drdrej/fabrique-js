@@ -14,6 +14,7 @@ Cmd.prototype.ext = function(impl) {
     this.exec = impl.exec;
     this.configure = impl.configure;
     this.validateCLI = impl.validateCLI;
+    this.initRoutes = impl.initRoutes;
 };
 
 Cmd.prototype.bind = function( extension ) {

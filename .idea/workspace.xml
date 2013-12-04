@@ -2,19 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/project1/model/patterns/DBManager.singleton.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/generator/TmplGenerator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/project1/model/app.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/model/example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/project1/fabrique.old.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/model/input.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/model/match-path.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/model/output.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/model/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test-Source.js" />
+      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\init\resolvePath.js" afterPath="" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\test-command-match-path.js" afterPath="$PROJECT_DIR$/old/test-command-match-path.j_" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\test-fabrique-create.j_" afterPath="$PROJECT_DIR$/old/test-fabrique-create.j_" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\test-fabrique-env-init.js" afterPath="$PROJECT_DIR$/old/test-fabrique-env-init.js" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\test-promise-match-path.j_" afterPath="$PROJECT_DIR$/old/test-promise-match-path.j_" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\test-promise-useModel.j_" afterPath="$PROJECT_DIR$/old/test-promise-useModel.j_" />
+      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\test-resolvePath.js" afterPath="$PROJECT_DIR$/old/test-resolvePath.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/commands/Cmd.js" afterPath="$PROJECT_DIR$/impl/commands/Cmd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/cli.js" afterPath="$PROJECT_DIR$/impl/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/FabriqueEnv.js" afterPath="$PROJECT_DIR$/impl/FabriqueEnv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/config/Path.js" afterPath="$PROJECT_DIR$/impl/config/Path.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/commands/create/create.js" afterPath="$PROJECT_DIR$/impl/commands/create/create.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/project1/fabrique.json" afterPath="$PROJECT_DIR$/test/project1/fabrique.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384805173258" ignored="false" />
+    <file path="/Dummy.txt" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386192877956" ignored="false" />
     <file path="/test-Model.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366812637292" ignored="false" />
     <file path="/app-model.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366827086895" ignored="false" />
     <file path="/databases.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366821707549" ignored="false" />
     <file path="/project.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366822559106" ignored="false" />
-    <file path="/a.dummy" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384724677388" ignored="false" />
+    <file path="/a.dummy" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386093215518" ignored="false" />
     <file path="/cleanup.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366824077993" ignored="false" />
     <file path="/create-directory-structure.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366824744385" ignored="false" />
     <file path="/query-json-select.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366846268083" ignored="false" />
@@ -48,7 +67,7 @@
     <file path="$PROJECT_DIR$/../fabrique-model/test/test-query-json-select.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367270002921" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-model/test/test-query-render.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367270746652" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-model/impl/query/Query.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367331983996" ignored="false" />
-    <file path="/fragment.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381704494018" ignored="false" />
+    <file path="/fragment.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385999416798" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-model/test/test-Query-object.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367334795253" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-model/impl/query/QueryManager.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367336286657" ignored="false" />
     <file path="/QueryManager.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367336285845" ignored="false" />
@@ -68,7 +87,7 @@
     <file path="/task-commands.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371408496002" ignored="false" />
     <file path="/validate-task-desc.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371409336539" ignored="false" />
     <file path="/prepare-code.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371571419641" ignored="false" />
-    <file path="/app.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371409789293" ignored="false" />
+    <file path="/app.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386115631227" ignored="false" />
     <file path="/task-get-commands.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371507659458" ignored="false" />
     <file path="/load-model.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381790472850" ignored="false" />
     <file path="/exec-command.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1371411986117" ignored="false" />
@@ -94,7 +113,7 @@
     <file path="/hello.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1379333919218" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/node-backend/test/test-hello-world.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1379334580305" ignored="false" />
     <file path="/test-hello-world.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1379334567276" ignored="false" />
-    <file path="/example.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1380978006265" ignored="false" />
+    <file path="/example.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385978231407" ignored="false" />
     <file path="/fabrique.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383557295753" ignored="false" />
     <file path="/checkConfig.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1380916319403" ignored="false" />
     <file path="/test-fabrique-create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1381704366592" ignored="false" />
@@ -184,26 +203,61 @@
     <file path="/Commands.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383507039670" ignored="false" />
     <file path="/match.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383509494477" ignored="false" />
     <file path="/test-command-match-path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383509753188" ignored="false" />
-    <file path="/fabrique.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384471109358" ignored="false" />
+    <file path="/fabrique.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386094152182" ignored="false" />
     <file path="/init-log.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1383608163763" ignored="false" />
     <file path="/init-env.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384205894506" ignored="false" />
     <file path="/resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384179927842" ignored="false" />
     <file path="/test-resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384148830549" ignored="false" />
     <file path="/test-fabrique-env-init.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384204324685" ignored="false" />
     <file path="/cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384807826196" ignored="false" />
-    <file path="/FabriqueEnv.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384473033674" ignored="false" />
+    <file path="/FabriqueEnv.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386072907319" ignored="false" />
     <file path="/package.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384223547726" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/fabrique.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224065810" ignored="false" />
     <file path="/fabrique.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224061897" ignored="false" />
-    <file path="$PROJECT_DIR$/../fabrique-example-prj/fabrique.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384472047482" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-example-prj/fabrique.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386094274331" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224619606" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384226786825" ignored="false" />
-    <file path="/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384226778380" ignored="false" />
-    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384807622414" ignored="false" />
+    <file path="/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385322991355" ignored="false" />
+    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385324746828" ignored="false" />
     <file path="/Cmd.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384807769885" ignored="false" />
-    <file path="/Path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384537509979" ignored="false" />
+    <file path="/Path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386093862392" ignored="false" />
     <file path="/out.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384471732855" ignored="false" />
     <file path="/LICENSE.md" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384690109099" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/generator/AndroidManifest.xml.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385231764429" ignored="false" />
+    <file path="/AndroidManifest.xml.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385232065137" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/generator/UnderscoreTmplGenerator.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385232075814" ignored="false" />
+    <file path="/UnderscoreTmplGenerator.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385371686279" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/config/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385323015679" ignored="false" />
+    <file path="/document.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385977854200" ignored="false" />
+    <file path="/select.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385977651769" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/user/profile.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385982060969" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/dashboard.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385982060969" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/user/profile-new.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385982060969" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/collections/precautions/precautions.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385991153468" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/immunization/immunizations.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385982060969" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/precaution/precaution-details.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385982060969" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/db/facade/Appointment.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385982409866" ignored="false" />
+    <file path="/Appointment.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385982267821" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/dashboard-appointments.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385982849255" ignored="false" />
+    <file path="/dashboard-appointments.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385982840600" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/build/build.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386001457154" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/build/package.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386000110968" ignored="false" />
+    <file path="/build.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386001387624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/node-backend/config/database/krankenhaus.schema.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386002231797" ignored="false" />
+    <file path="/krankenhaus.schema.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386002224729" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/node-backend/import/krankenhaus/json2mongo.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386002565604" ignored="false" />
+    <file path="/json2mongo.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386002564353" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/appointments/appointments.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386072852406" ignored="false" />
+    <file path="/input.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386095460104" ignored="false" />
+    <file path="/output.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386093142378" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-example-prj/model/app.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386094300721" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-example-prj/model/app.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386094544679" ignored="false" />
+    <file path="/app.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386094506052" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-example-prj/model/views/splash-screen.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386094583802" ignored="false" />
+    <file path="$PROJECT_DIR$/../fabrique-example-prj/model/views/hello-view.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386094649260" ignored="false" />
+    <file path="/hello-view.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386094644589" ignored="false" />
+    <file path="/test-Source.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386115867581" ignored="false" />
+    <file path="/DBManager.singleton.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386115718339" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +280,7 @@
       <file leaf-file-name="FabriqueEnv.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="58" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+            <state line="61" column="0" selection-start="1506" selection-end="1506" vertical-scroll-proportion="-1.8301886">
               <folding />
             </state>
           </provider>
@@ -235,52 +289,34 @@
       <file leaf-file-name="Path.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="129" selection-start="673" selection-end="785" vertical-scroll-proportion="-7.5">
+            <state line="20" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cli.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/impl/cli.js">
+      <file leaf-file-name="input.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/model/input.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="63" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.66366905">
+            <state line="30" column="8" selection-start="620" selection-end="626" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/commands/create/create.js">
+      <file leaf-file-name="test-Source.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test-Source.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="17" selection-start="783" selection-end="783" vertical-scroll-proportion="-8.06">
+            <state line="12" column="99" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cmd.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/commands/Cmd.js">
+      <file leaf-file-name="test-fabrique-env-init.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/old/test-fabrique-env-init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="17" selection-start="1200" selection-end="1203" vertical-scroll-proportion="-7.72">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exec-command.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/old/command/exec-command.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/java-helloworld/model/app.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="148" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -304,29 +340,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/data/test-resolvePath.js" />
-        <option value="$PROJECT_DIR$/impl/init/resolvePath.js" />
-        <option value="$PROJECT_DIR$/test/test-resolvePath.js" />
-        <option value="$PROJECT_DIR$/impl/fabrique.js" />
-        <option value="$PROJECT_DIR$/impl/init/init-env.js" />
-        <option value="$PROJECT_DIR$/test/test-fabrique-env-init.js" />
-        <option value="$PROJECT_DIR$/bin/fabrique" />
-        <option value="$PROJECT_DIR$/impl/out/out.js" />
+        <option value="$PROJECT_DIR$/impl/generator/TmplGenerator.js" />
+        <option value="$PROJECT_DIR$/impl/model.js" />
+        <option value="$PROJECT_DIR$/impl/model/select.js" />
+        <option value="$PROJECT_DIR$/impl/model/document.js" />
+        <option value="$PROJECT_DIR$/impl/model/example.js" />
+        <option value="$PROJECT_DIR$/examples/model/example.js" />
         <option value="$PROJECT_DIR$/impl/FabriqueEnv.js" />
+        <option value="$PROJECT_DIR$/impl/model/output.js" />
+        <option value="$PROJECT_DIR$/impl/model/input.js" />
+        <option value="$PROJECT_DIR$/test/project1/model/app.json.js" />
+        <option value="$PROJECT_DIR$/test/project1/model/patterns/singleton.json.js" />
+        <option value="$PROJECT_DIR$/test/project1/model/patterns/DBManager.singleton.json" />
+        <option value="$PROJECT_DIR$/test/project1/fabrique.json.js" />
+        <option value="$PROJECT_DIR$/test/test-Source.js" />
+        <option value="$PROJECT_DIR$/test/project1/fabrique.json" />
         <option value="$PROJECT_DIR$/impl/config/Path.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/LICENSE.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/impl/commands/create/create.js" />
-        <option value="$PROJECT_DIR$/impl/commands/Cmd.js" />
-        <option value="$PROJECT_DIR$/impl/cli.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1368" />
+    <option name="width" value="1374" />
     <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -355,6 +391,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -383,7 +420,83 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toolset" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="old" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,7 +546,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="init" />
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -508,6 +639,24 @@
               <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fabrique-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -525,7 +674,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -540,25 +688,25 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="OPEN_URL_DIALOG">
-      <recent name="https://github.com/drdrej/fabrique.git" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\model" />
+      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\generator" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\old" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test" />
-      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules" />
-      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\data\schema" />
+    </key>
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/drdrej/fabrique.git" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\old" />
+      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\examples\model" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test" />
       <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\model" />
-      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\promises" />
-      <recent name="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\data\input" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.test-fabrique-env-init">
+  <component name="RunManager" selected="Node.js.test-all">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -634,7 +782,7 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <configuration default="false" name="test-fabrique-env-init" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/bin/_mocha" application-parameters="test/test-fabrique-env-init.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="test-all" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/bin/_mocha" application-parameters="test" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
       <method />
@@ -658,7 +806,7 @@
       <item index="3" class="java.lang.String" itemvalue="Node.js.test-promise-match-path" />
       <item index="4" class="java.lang.String" itemvalue="Node.js.test-command-match-path" />
       <item index="5" class="java.lang.String" itemvalue="Node.js.test-resolvePath" />
-      <item index="6" class="java.lang.String" itemvalue="Node.js.test-fabrique-env-init" />
+      <item index="6" class="java.lang.String" itemvalue="Node.js.test-all" />
       <item index="7" class="java.lang.String" itemvalue="Nodeunit.script\test\test-Model.js" />
     </list>
   </component>
@@ -709,14 +857,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1368" height="776" extended-state="0" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1374" height="776" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58615136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28197458" sideWeight="0.4129747" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984127" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28145942" sideWeight="0.60225445" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39774558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3892405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -724,7 +873,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58702534" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39965987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -911,7 +1059,7 @@
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/test-resolvePath.js</url>
+          <url>file://$PROJECT_DIR$/old/test-resolvePath.js</url>
           <line>12</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
@@ -925,107 +1073,127 @@
           <line>22</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/impl/config/Path.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/impl/FabriqueEnv.js</url>
+          <line>5</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="78" />
+      <option name="time" value="80" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/lib/runnable.js">
+    <entry file="file://$PROJECT_DIR$/impl/model/select.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="0" selection-start="3986" selection-end="3986" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/fabrique">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/java-helloworld/tasks/prepare-code.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/java-helloworld/model/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="5" column="26" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/out/out.js">
+    <entry file="file://$PROJECT_DIR$/impl/model/output.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="203" selection-end="203" vertical-scroll-proportion="0.16887417" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/JSONSelect/src/jsonselect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="562" column="12" selection-start="20512" selection-end="20512" vertical-scroll-proportion="0.5397631" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/init/resolvePath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.48679867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="64" selection-start="113" selection-end="113" vertical-scroll-proportion="0.11623932" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.28052804">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="17" selection-start="929" selection-end="929" vertical-scroll-proportion="0.74655175">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/command/exec-command.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="58" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="129" selection-start="673" selection-end="785" vertical-scroll-proportion="-7.5">
+        <state line="15" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/commands/Cmd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="17" selection-start="1200" selection-end="1203" vertical-scroll-proportion="-7.72">
+        <state line="144" column="0" selection-start="3254" selection-end="3342" vertical-scroll-proportion="-6.981132">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/commands/create/create.js">
+    <entry file="file://$PROJECT_DIR$/impl/model/match-path.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="17" selection-start="783" selection-end="783" vertical-scroll-proportion="-8.06">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/test-fabrique-create.j_">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="197" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/cli.js">
+    <entry file="file://$PROJECT_DIR$/old/test-command-match-path.j_">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="63" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.66366905">
+        <state line="3" column="0" selection-start="68" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/project1/model/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="21" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/project1/model/patterns/DBManager.singleton.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="24" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/project1/fabrique.old.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/test-resolvePath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/project1/fabrique.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="31" selection-start="139" selection-end="139" vertical-scroll-proportion="0.21875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/model/input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="8" selection-start="620" selection-end="626" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="1506" selection-end="1506" vertical-scroll-proportion="-1.8301886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-Source.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="99" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/test-fabrique-env-init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="148" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

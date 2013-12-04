@@ -1,14 +1,11 @@
 {
-    "name" : "Hello-World - 1",
     "version" : 1,
+    "output"  : "c:\\temp",
 
-    "path" : {
-        "work" : "./work",
-
-        "toolset" : {
-            "android-project" : "./tools/android"
+    "toolset" : [
+        {
+            "id" : "example",
+            "path" : "./toolset/example"
         }
-    }
-
-
+    ]
 }

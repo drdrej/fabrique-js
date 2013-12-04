@@ -42,25 +42,25 @@ Create.prototype.initRoutes = function (routes) {
     _.each(routes, function (entry) {
         console.log(">>>>> route :::: " + entry);
         console.log(entry);
+
+        // TODO: hier muss die richtige route aus der config aufgenommen werden
+        // der header für den call ist immer unterschiedlich.
+        var route = crossroads.addRoute(entry.route);
+        route.matched.add(entry.handler);
+
     });
 
-    /*
-     var sectionRoute = crossroads.addRoute('/{section}/{id}');
-     function onSectionMatch(section, id){
-     console.log(section +' - '+ id);
-     }
+    // TODO: Routes konfigurieren:
+    // RouteHandler binden.
 
-     sectionRoute.matched.add(onSectionMatch);
-     //will match `sectionRoute` passing "news" and `123` as param
-     crossroads.parse('/news/123');
-
-     return crossroads;
-     */
 };
 
 Create.prototype.exec = function () {
     // route finden/feuern
     // Generator ausführen
+
+    // Route feuern
+    // im Handler wird der Generator aufgerufen.
 };
 
 

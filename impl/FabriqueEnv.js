@@ -79,3 +79,8 @@ exports.header = function() {
     console.log("#####################################################");
 
 };
+
+
+exports.input = function( pattern ) {
+
+};

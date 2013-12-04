@@ -4,7 +4,11 @@ var fs = require('fs');
 var out = require("../out/out.js" );
 var select = require('JSONSelect');
 
-exports.resolveAll = function (config) {
+
+// ###############################################
+// ##                    Impl
+// ###############################################
+var resolveAll  = function (config) {
     config.output = resolve( config.root, "config.output", config.output, 1001);
 
     var toolset = new ToolSet(config);
@@ -12,13 +16,9 @@ exports.resolveAll = function (config) {
     // Handle toolset :::
     var selected = select.match( ".toolset > *", config );
     _.each(selected, function( def ) {
-         toolset.load(def);
+        toolset.load(def);
     });
 };
-
-exports.resolve = resolve;
-
-exports.exists = exists;
 
 var exists = function( path ) {
     var has = (path && _.isString(path) && fs.existsSync(path) )
@@ -58,3 +58,16 @@ ToolSet.prototype.load = function(def) {
 
     return this;
 };
+
+
+
+
+// ###############################################
+// ##                    API
+// ###############################################
+
+exports.resolveAll = resolveAll;
+
+exports.resolve = resolve;
+
+exports.exists = exists;
