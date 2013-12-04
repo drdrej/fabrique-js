@@ -58,7 +58,8 @@ FabriqueEnv.prototype.input = function( pattern ) {
     var Source = require('./model/input.js' );
     var source = Source.create( this );
 
-    return source;
+    var Pipe = require( './model/Pipe.js' );
+    return Pipe.create(source);
 };
 
 

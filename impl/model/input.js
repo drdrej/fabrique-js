@@ -1,33 +1,31 @@
 var _ = require('underscore');
 var W = require('wrench');
 
-// var match = require("./match-path.js").match;
-// var S = require("string");
-
 var Source = function(fabrique) {
    this.fabrique = fabrique;
+   this.queue = [];
 };
 
 Source.prototype.input = function( pattern, pipe ) {
-    var path = this.fabrique.root + '/model';
+    if( !(pipe && _.isFunction(pipe)) ) {
+        console.error( "-- couldn't handle input. needs a callback." );
+        throw new Error();
+    }
 
+
+    var path = this.fabrique.root + '/model';
     console.log( "-- use path to find an input: " + path );
 
     W.readdirRecursive( path, function(error, files) {
         _.each(files, function(file) {
-            pipe(file);
+                // TODO: fix. match pattern
+                pipe(file);
         });
     });
-
-    // 1. resolve path
-    // -> benötigt: fabrique
-
-    // 2. lado document
-    // ->pipe Document
-
 };
 
 
+
 exports.create = function( fabrique ) {
-    return new Source( this );
+    return new Source( fabrique );
 };

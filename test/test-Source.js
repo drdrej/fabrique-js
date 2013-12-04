@@ -7,7 +7,11 @@ describe('Fabrique', function () {
           console.log( "-- init fabrique");
           var fabrique = create( __dirname + "/project1/" );
 
-          fabrique.input( "*.schema.json" );
+
+          fabrique.input( "*.schema.json").select( '.name').apply(function(selected) {
+
+          });
+
 
           done();
     });
