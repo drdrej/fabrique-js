@@ -28,4 +28,6 @@ Source.prototype.input = function( pattern, pipe ) {
 };
 
 
-exports.source = Source;
+exports.create = function( fabrique ) {
+    return new Source( this );
+};

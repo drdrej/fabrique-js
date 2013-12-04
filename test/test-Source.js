@@ -7,6 +7,8 @@ describe('Fabrique', function () {
           console.log( "-- init fabrique");
           var fabrique = create( __dirname + "/project1/" );
 
+          fabrique.input( "*.schema.json" );
+
           done();
     });
 });

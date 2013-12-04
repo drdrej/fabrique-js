@@ -53,6 +53,15 @@ FabriqueEnv.prototype.initConfig = function() {
     return config;
 };
 
+
+FabriqueEnv.prototype.input = function( pattern ) {
+    var Source = require('./model/input.js' );
+    var source = Source.create( this );
+
+    return source;
+};
+
+
 exports.create = function(root) {
     exports.header();
 
@@ -80,7 +89,3 @@ exports.header = function() {
 
 };
 
-
-exports.input = function( pattern ) {
-
-};
