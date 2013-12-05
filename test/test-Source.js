@@ -9,23 +9,23 @@ describe('Fabrique', function () {
 
 
           fabrique.input( "*.schema.json")
-              .transform( '.name')
+              .transform( '.name', function() {})
               .apply(function(selected) {
-                  // ruft das erste apply auf.
                   done();
           });
 
         fabrique.input( "*.json" )
-            .transform( '.name')
+            .transform( '.name', function(element) {
+                console.log( "####################### YEAH!!!" );
+                return element;
+            })
             .apply(function(selected) {
-                // ruft das erste apply auf.
                 done();
             });
 
         fabrique.input( "app.json")
-            .transform( '.name')
+            .transform( '.name', function() {})
             .apply(function(selected) {
-                // ruft das erste apply auf.
                 done();
             });
     });

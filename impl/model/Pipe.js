@@ -4,15 +4,30 @@ var EventEmitter = require('events').EventEmitter;
 var Pipe = function(source) {
     this.source = source;
     this.emitter = new EventEmitter();
+
+    this.emitter.on( 't1', function() {
+        console.log( "*********** TTTT 1 ********* is called! ");
+    })
 };
 
-Pipe.prototype.transform = function( pattern ) {
+Pipe.prototype.transform = function( query, transformation ) {
+    if( !(transformation && _.isFunction(transformation)) ) {
+        console.warn( "-- skip transformation for query: '" + query + "'. passed param:transformation is not a function.");
+        return;
+    }
+
+    var pipe = this.emitter;
     this.emitter.on( 'source', function(source) {
+        var result = transformation(source);
+        pipe.emit( 't1', result );
+    });
+
+/*    this.emitter.on( 'source', function(source) {
         console.log("-- CALL TRANSFORMATION!!!");
         console.log(source);
     });
-
-    return this;
+*/
+    // return this;
 };
 
 Pipe.prototype.apply = function( handler ) {

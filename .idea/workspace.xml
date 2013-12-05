@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\impl\model\match-path.js" afterPath="$PROJECT_DIR$/old/match-path.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/model/Pipe.js" afterPath="$PROJECT_DIR$/impl/model/Pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/model/Source.js" afterPath="$PROJECT_DIR$/impl/model/Source.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/model/output.js" afterPath="$PROJECT_DIR$/impl/model/output.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-Source.js" afterPath="$PROJECT_DIR$/test/test-Source.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -239,9 +235,9 @@
     <file path="$PROJECT_DIR$/../fabrique-example-prj/model/views/splash-screen.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386094583802" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/model/views/hello-view.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386094649260" ignored="false" />
     <file path="/hello-view.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386094644589" ignored="false" />
-    <file path="/test-Source.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386255589590" ignored="false" />
+    <file path="/test-Source.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386259251206" ignored="false" />
     <file path="/DBManager.singleton.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386115718339" ignored="false" />
-    <file path="/Pipe.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386257582732" ignored="false" />
+    <file path="/Pipe.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386259341484" ignored="false" />
     <file path="/transform.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386255886729" ignored="false" />
     <file path="/loadModel.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386257506894" ignored="false" />
     <file path="/Source.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386258384616" ignored="false" />
@@ -273,19 +269,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pipe.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Pipe.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/impl/model/Pipe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+            <state line="29" column="19" selection-start="897" selection-end="897" vertical-scroll-proportion="0.7543353">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-Source.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test-Source.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test-Source.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="33" selection-start="549" selection-end="549" vertical-scroll-proportion="0.31213874">
+            <state line="9" column="13" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -323,8 +319,8 @@
         <option value="$PROJECT_DIR$/impl/model/loadModel.js" />
         <option value="$PROJECT_DIR$/impl/model/match-path.js" />
         <option value="$PROJECT_DIR$/impl/model/Source.js" />
-        <option value="$PROJECT_DIR$/impl/model/Pipe.js" />
         <option value="$PROJECT_DIR$/test/test-Source.js" />
+        <option value="$PROJECT_DIR$/impl/model/Pipe.js" />
       </list>
     </option>
   </component>
@@ -939,7 +935,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/impl/model/Pipe.js</url>
-          <line>28</line>
+          <line>43</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -1050,16 +1046,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/model/Pipe.js">
+    <entry file="file://$PROJECT_DIR$/test/test-Source.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-Source.js">
+    <entry file="file://$PROJECT_DIR$/impl/model/Pipe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="549" selection-end="549" vertical-scroll-proportion="0.31213874">
+        <state line="29" column="19" selection-start="897" selection-end="897" vertical-scroll-proportion="0.7543353">
           <folding />
         </state>
       </provider>
