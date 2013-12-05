@@ -2,14 +2,26 @@ var _ = require( 'underscore' );
 var Path = require('./config/Path.js');
 
 
+var createWorkDir = function(root) {
+    var work = root + "/ work";
+    var W = require('wrench');
+
+    W.mkdirSyncRecursive(work, 0777);
+
+    return work;
+};
+
 var FabriqueEnv = function(root) {
     this.root = root;
     console.log("-- use root: " + root );
 
     this.config = this.initConfig();
-
     Path.resolveAll(this.config);
 
+    this.work = createWorkDir(this.root);
+    console.log("-- use work-path: " + this.work);
+
+    // TODO: macht diese Prüfung Sinn?
     if( !this.config || _.isNull(this.config) ) {
         // throw new Error();
         process.exit(0);
@@ -60,6 +72,15 @@ FabriqueEnv.prototype.input = function( pattern ) {
 
     var Pipe = require( './model/Pipe.js' );
     return Pipe.create(source);
+};
+
+
+FabriqueEnv.prototype.dump = function( path ) {
+    var fullPath = this.work + "/" + path;
+    console.log("-- dump: " + fullPath);
+
+    var Dump = require( './model/Dump.js');
+    return Dump.create(fullPath);
 };
 
 

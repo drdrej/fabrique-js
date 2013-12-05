@@ -4,30 +4,48 @@ var EventEmitter = require('events').EventEmitter;
 var Pipe = function(source) {
     this.source = source;
     this.emitter = new EventEmitter();
+    this.transformations = 0;
 
     this.emitter.on( 't1', function() {
         console.log( "*********** TTTT 1 ********* is called! ");
     })
 };
 
-Pipe.prototype.transform = function( query, transformation ) {
+Pipe.prototype.transform = function( query, transformation, from) {
     if( !(transformation && _.isFunction(transformation)) ) {
         console.warn( "-- skip transformation for query: '" + query + "'. passed param:transformation is not a function.");
         return;
     }
 
+    // use EventEmitter:
     var pipe = this.emitter;
-    this.emitter.on( 'source', function(source) {
+
+    // choose incomming:
+    var incoming = from ? from : 'source';
+
+    // create new route:
+    var outgoing = "transform-" + this.transformations;
+    this.transformations++;
+    console.log( "-- create event-route: " + incoming + " -> " + outgoing );
+
+    // add handler.
+    this.emitter.on( incoming, function(source) {
         var result = transformation(source);
-        pipe.emit( 't1', result );
+        pipe.emit( outgoing, result );
     });
 
-/*    this.emitter.on( 'source', function(source) {
-        console.log("-- CALL TRANSFORMATION!!!");
-        console.log(source);
-    });
-*/
-    // return this;
+    var that = this;
+    return {
+        outgoing : outgoing,
+
+        transform : function(query, transformation) {
+            that.transform( query, transformation, this.outgoing);
+        },
+
+        apply: function( success ) {
+            that.apply( success );
+        }
+    };
 };
 
 Pipe.prototype.apply = function( handler ) {
@@ -41,6 +59,8 @@ Pipe.prototype.apply = function( handler ) {
 
         if( file ) {
             console.log("-- emmit event:" );
+
+
             that.emitter.emit( 'source', file);
         } else {
             console.warn( "-- skip resource: " + fullPath);
@@ -48,6 +68,7 @@ Pipe.prototype.apply = function( handler ) {
         }
     });
 };
+
 
 exports.create = function(source) {
    return new Pipe(source);
