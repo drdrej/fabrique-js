@@ -1,5 +1,5 @@
 var _ = require("underscore");
-var match = require("./match-path.js").match;
+var match = require("./../../old/match-path.js").match;
 var S= require("string");
 
 var Input = function() {

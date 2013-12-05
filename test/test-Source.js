@@ -14,5 +14,19 @@ describe('Fabrique', function () {
                   // ruft das erste apply auf.
                   done();
           });
+
+        fabrique.input( "*.json" )
+            .transform( '.name')
+            .apply(function(selected) {
+                // ruft das erste apply auf.
+                done();
+            });
+
+        fabrique.input( "app.json")
+            .transform( '.name')
+            .apply(function(selected) {
+                // ruft das erste apply auf.
+                done();
+            });
     });
 });

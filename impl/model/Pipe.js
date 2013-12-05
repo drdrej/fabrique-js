@@ -6,8 +6,6 @@ var Pipe = function(source) {
     this.emitter = new EventEmitter();
 };
 
-
-
 Pipe.prototype.transform = function( pattern ) {
     this.emitter.on( 'source', function(source) {
         console.log("-- CALL TRANSFORMATION!!!");
@@ -28,7 +26,7 @@ Pipe.prototype.apply = function( handler ) {
 
         if( file ) {
             console.log("-- emmit event:" );
-            that.emitter.emit('source', file);
+            that.emitter.emit( 'source', file);
         } else {
             console.warn( "-- skip resource: " + fullPath);
             return;
