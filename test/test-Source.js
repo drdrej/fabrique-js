@@ -11,10 +11,8 @@ describe('Fabrique', function () {
           fabrique.input( "*.schema.json")
               .transform( '.name')
               .apply(function(selected) {
-
+                  // ruft das erste apply auf.
+                  done();
           });
-
-
-          done();
     });
 });
