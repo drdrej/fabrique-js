@@ -8,7 +8,9 @@ describe('Fabrique', function () {
           var fabrique = create( __dirname + "/project1/" );
 
 
-          fabrique.input( "*.schema.json").select( '.name').apply(function(selected) {
+          fabrique.input( "*.schema.json")
+              .transform( '.name')
+              .apply(function(selected) {
 
           });
 
