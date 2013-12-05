@@ -60,7 +60,6 @@ Pipe.prototype.apply = function( handler ) {
         if( file ) {
             console.log("-- emmit event:" );
 
-
             that.emitter.emit( 'source', file);
         } else {
             console.warn( "-- skip resource: " + fullPath);

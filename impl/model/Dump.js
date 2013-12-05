@@ -10,7 +10,7 @@ Dump.prototype.append = function( path, element ) {
 
 
 Dump.prototype.create = function( model ) {
-    if(exists( this.path)) {
+    if(exists(this.path)) {
         console.error( "-- couldn't create, resource allready exists: " + path );
         return;
     }
