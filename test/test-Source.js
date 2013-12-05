@@ -8,31 +8,36 @@ describe('Fabrique', function () {
         var fabrique = create(__dirname + "/project1/");
 
 
+        /*
         fabrique.input("*.schema.json")
             .transform('.name', function () {
             })
             .apply(function (selected) {
                 done();
             });
+        */
 
+        /*
         fabrique.input("*.json")
             .transform('.name', function (element) {
                 console.log("####################### YEAH!!!");
                 return element;
             })
-            .apply(function (selected) {
+            .apply(function (counted) {
+                // gibt die liste der gezählten resources -> summary
                 done();
             });
+        */
 
+        // TODO: pruefe die Kombi mit verschachtelten Transformationen. Ist dieser Weg überhaupt notwendig?
         fabrique.input("app.json")
-            .transform('.name', function () {
-                fabrique.dump("MyFile.xml").create({
-                    test: "TEST IT"
-                });
-            })
-            .apply(function (selected) {
+            .transform('.name', function (element) {
 
-                done();
-            });
+                fabrique.dump("MyFile.xml").create( /*{
+                    test: "TEST IT"
+                } */);
+            })
+            .apply();
+
     });
 });

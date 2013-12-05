@@ -3,7 +3,7 @@ var Path = require('./config/Path.js');
 
 
 var createWorkDir = function(root) {
-    var work = root + "work";
+    var work = root + "/work";
     var W = require('wrench');
 
     W.mkdirSyncRecursive(work, 0777);
