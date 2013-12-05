@@ -11,6 +11,7 @@ var Pipe = function(source) {
 Pipe.prototype.transform = function( pattern ) {
     this.emitter.on( 'source', function(source) {
         console.log("-- CALL TRANSFORMATION!!!");
+        console.log(source);
     });
 
     return this;
@@ -19,14 +20,19 @@ Pipe.prototype.transform = function( pattern ) {
 Pipe.prototype.apply = function( handler ) {
     var source = this.source;
     var that = this;
-    source.input(function(element) {
-        /*if( source.next && _.isFunction(source.next)) {
-            // load function!
-            source.next(element);
-        }*/
 
-        console.log("-- emmit event:" );
-        that.emitter.emit('source', element);
+    source.input(function( event ) {
+        var loadModel = require( './loadModel.js' ).load;
+        var fullPath = event.path + "/" + event.file;
+        var file =  loadModel( fullPath );
+
+        if( file ) {
+            console.log("-- emmit event:" );
+            that.emitter.emit('source', file);
+        } else {
+            console.warn( "-- skip resource: " + fullPath);
+            return;
+        }
     });
 };
 

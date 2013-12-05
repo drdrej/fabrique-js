@@ -17,21 +17,19 @@ Source.prototype.input = function( pipe ) {
     var path = this.fabrique.root + '/model';
     console.log( "-- use path to find an input: " + path );
 
-    W.readdirRecursive( 'c:/temp', function(error, files) {
+    // Path.exists()?
+
+    W.readdirRecursive( path, function(error, files) {
         _.each(files, function(file) {
+
                 // TODO: fix. match pattern
-                pipe(file);
+                pipe({
+                    path: path,
+                    file: file
+                });
         });
     });
 };
-
-      /*
-Source.prototype.select = function( pattern ) {
-    // register callback.
-    return this;
-};
-*/
-
 
 exports.create = function( fabrique, pattern ) {
     return new Source( fabrique, pattern );

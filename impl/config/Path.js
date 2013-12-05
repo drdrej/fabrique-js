@@ -23,7 +23,7 @@ var resolveAll  = function (config) {
 var exists = function( path ) {
     var has = (path && _.isString(path) && fs.existsSync(path) )
     if( !has ) {
-        out.err( "Couldn't exec fabrique.", "fabrique-path of type " + pathName + " doesn't exists. path = " + resolved, errCode );
+        console.log( "rosource dosn't exists: " + path);
         return false;
     }
 
