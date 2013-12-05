@@ -48,6 +48,44 @@ Pipe.prototype.transform = function( query, transformation, from) {
     };
 };
 
+Pipe.prototype.handle = function(transformation, from) {
+    if( !(transformation && _.isFunction(transformation)) ) {
+        console.warn( "-- skip transformation for query: '" + query + "'. passed param:transformation is not a function.");
+        return;
+    }
+
+    // use EventEmitter:
+    var pipe = this.emitter;
+
+    // choose incomming:
+    var incoming = from ? from : 'source';
+
+    // create new route:
+    var outgoing = "transform-" + this.transformations;
+    this.transformations++;
+    console.log( "-- create event-route: " + incoming + " -> " + outgoing );
+
+    // add handler.
+    this.emitter.on( incoming, function(source) {
+        var result = transformation(source);
+        pipe.emit( outgoing, result );
+    });
+
+    var that = this;
+    return {
+        outgoing : outgoing,
+
+        handle : function(transformation) {
+            that.handle( transformation, this.outgoing);
+        },
+
+        apply: function( success ) {
+            that.apply( success );
+        }
+    };
+};
+
+
 Pipe.prototype.apply = function( handler ) {
     var source = this.source;
     var that = this;

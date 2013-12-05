@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/script.js" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\project1\work\MyFile.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/model/Dump.js" afterPath="$PROJECT_DIR$/impl/model/Dump.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/FabriqueEnv.js" afterPath="$PROJECT_DIR$/impl/FabriqueEnv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/fabrique" afterPath="$PROJECT_DIR$/bin/fabrique" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-Source.js" afterPath="$PROJECT_DIR$/test/test-Source.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/model/Pipe.js" afterPath="$PROJECT_DIR$/impl/model/Pipe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/script.js" afterPath="$PROJECT_DIR$/impl/script.js" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -202,7 +197,7 @@
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224619606" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384226786825" ignored="false" />
     <file path="/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385322991355" ignored="false" />
-    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386269065565" ignored="false" />
+    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386272265771" ignored="false" />
     <file path="/Cmd.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384807769885" ignored="false" />
     <file path="/Path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386257182884" ignored="false" />
     <file path="/out.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384471732855" ignored="false" />
@@ -242,17 +237,17 @@
     <file path="/hello-view.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386094644589" ignored="false" />
     <file path="/test-Source.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386264614633" ignored="false" />
     <file path="/DBManager.singleton.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386115718339" ignored="false" />
-    <file path="/Pipe.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386263344718" ignored="false" />
+    <file path="/Pipe.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386273895780" ignored="false" />
     <file path="/transform.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386255886729" ignored="false" />
     <file path="/loadModel.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386257506894" ignored="false" />
     <file path="/Source.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386258384616" ignored="false" />
     <file path="/Dump.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386263893896" ignored="false" />
-    <file path="/script.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386269398327" ignored="false" />
+    <file path="/script.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386271075891" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/commands/create/db/sqlite/create-tabel.sql.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386268799629" ignored="false" />
     <file path="/create-tabel.sql.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386268788340" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/commands/create/AndroidManifest.xml.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386268835128" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/commands/create/AndroidManifest.xml.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386272072674" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/fabrique.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386268984760" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/scripts/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386269066046" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/scripts/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386272279121" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,37 +267,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test-Source.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test-Source.js">
+      <file leaf-file-name="Pipe.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/impl/model/Pipe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="24" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/impl/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="87" selection-start="423" selection-end="423" vertical-scroll-proportion="0.43001688">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dump.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/model/Dump.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Path.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="62" selection-start="692" selection-end="711" vertical-scroll-proportion="0.0">
+            <state line="78" column="23" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.83136594">
               <folding />
             </state>
           </provider>
@@ -336,12 +304,12 @@
         <option value="$PROJECT_DIR$/impl/model/loadModel.js" />
         <option value="$PROJECT_DIR$/impl/model/match-path.js" />
         <option value="$PROJECT_DIR$/impl/model/Source.js" />
-        <option value="$PROJECT_DIR$/impl/model/Pipe.js" />
         <option value="$PROJECT_DIR$/impl/model/Dump.js" />
         <option value="$PROJECT_DIR$/test/test-Source.js" />
         <option value="$PROJECT_DIR$/bin/fabrique" />
         <option value="$PROJECT_DIR$/impl/FabriqueEnv.js" />
         <option value="$PROJECT_DIR$/impl/script.js" />
+        <option value="$PROJECT_DIR$/impl/model/Pipe.js" />
       </list>
     </option>
   </component>
@@ -934,27 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/model/Pipe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="62" selection-start="692" selection-end="711" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/model/Dump.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/model/Source.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.12478921">
@@ -990,16 +937,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test-Source.js">
+    <entry file="file://$PROJECT_DIR$/impl/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+        <state line="13" column="26" selection-start="392" selection-end="392" vertical-scroll-proportion="0.3726813">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/script.js">
+    <entry file="file://$PROJECT_DIR$/impl/model/Dump.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="87" selection-start="423" selection-end="423" vertical-scroll-proportion="0.43001688">
+        <state line="13" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.3726813">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="62" selection-start="692" selection-end="711" vertical-scroll-proportion="0.12478921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-Source.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="24" selection-start="774" selection-end="774" vertical-scroll-proportion="0.45531198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/model/Pipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="23" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.83136594">
           <folding />
         </state>
       </provider>

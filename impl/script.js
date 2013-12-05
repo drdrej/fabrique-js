@@ -12,7 +12,7 @@ if( argv && argv.length == 3) {
     var script = rootDir + '/scripts/' + argv[2] + '.js';
     console.log("-- load script: " + script);
     var exec = require(script).exec;
-    exec();
+    exec(env);
 } else {
     console.error( "-- supports only one script-name!");
 }
