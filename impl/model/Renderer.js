@@ -95,6 +95,8 @@ Renderer.prototype.useTemplate = function () {
     var input = this.template;
     var Handlebars = require("handlebars");
     var handlebars = Handlebars.create();
+
+    // TODO: Delimiter einbinden.
     handlebars.registerHelper( 'D', function (ctx, options) {
         /*var out = "<ul>";
 
