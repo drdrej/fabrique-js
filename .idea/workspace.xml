@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/model/Renderer.js" afterPath="$PROJECT_DIR$/impl/model/Renderer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\test\project1\fabrique.old.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +25,7 @@
     <file path="$PROJECT_DIR$/../../../nodejs-fabrique/source/fabrique/Gruntfile.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367150374773" ignored="false" />
     <file path="$PROJECT_DIR$/../../../nodejs-fabrique/source/fabrique/package.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367147120374" ignored="false" />
     <file path="$PROJECT_DIR$/../../../nodejs-fabrique/source/fabrique/README.md" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367167017323" ignored="false" />
-    <file path="/README.md" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384690366466" ignored="false" />
+    <file path="/README.md" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386443432518" ignored="false" />
     <file path="/query.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367182820833" ignored="false" />
     <file path="/collect-needs.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367226802773" ignored="false" />
     <file path="/query-render.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1367270561426" ignored="false" />
@@ -264,6 +265,11 @@
     <file path="$PROJECT_DIR$/../../../mobile-mb-app/repository/app-fabrique/model/db/station.schema.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386442184588" ignored="false" />
     <file path="/station.schema.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386442158753" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-mb-app/repository/app-fabrique/templates/android/AndroidManifest.xml.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386442414008" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/repository/app-fabrique/fabrique.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386443574938" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/repository/app-fabrique/templates/android/AndroidManifest.xml.hbs" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386456814746" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/repository/app-fabrique/templates/android/AndroidManifest.xml.hbs.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386456696037" ignored="false" />
+    <file path="/AndroidManifest.xml.hbs.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386456574978" ignored="false" />
+    <file path="/AndroidManifest.xml.hbs" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386456810797" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,19 +289,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FabriqueEnv.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
+      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="2" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Renderer.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/impl/model/Renderer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="33" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.3726813">
+            <state line="2" column="20" selection-start="47" selection-end="47" vertical-scroll-proportion="0.059964728">
               <folding />
             </state>
           </provider>
@@ -319,8 +316,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/project1/fabrique.json" />
-        <option value="$PROJECT_DIR$/impl/model/transform.js" />
         <option value="$PROJECT_DIR$/impl/model/input.js" />
         <option value="$PROJECT_DIR$/impl/transform.js" />
         <option value="$PROJECT_DIR$/impl/config/Path.js" />
@@ -335,6 +330,8 @@
         <option value="$PROJECT_DIR$/impl/model/Render.js" />
         <option value="$PROJECT_DIR$/impl/FabriqueEnv.js" />
         <option value="$PROJECT_DIR$/impl/model/Renderer.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -399,74 +396,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabrique-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hbs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -898,16 +827,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/impl/model/loadModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="233" selection-end="233" vertical-scroll-proportion="0.4913295" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/match-path.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="17" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/old/model/pipe-value.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -915,7 +834,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/model/Source.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.12478921" />
+        <state line="31" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.12478921">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/fabrique">
@@ -926,13 +847,6 @@
     <entry file="file://$PROJECT_DIR$/impl/cli.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="588" selection-end="704" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/project1/fabrique.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="166" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
@@ -957,13 +871,6 @@
         <state line="62" column="26" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.16863406" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="2" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.17200674" />
@@ -979,9 +886,37 @@
         <state line="5" column="44" selection-start="135" selection-end="135" vertical-scroll-proportion="0.14333895" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.7453626">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="2" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.02866779">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/impl/model/Renderer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="33" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.3726813">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/project1/fabrique.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="47" selection-end="47" vertical-scroll-proportion="0.059964728">
           <folding />
         </state>
       </provider>
