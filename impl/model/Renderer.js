@@ -62,7 +62,7 @@ Renderer.prototype.useModel = function () {
 
     var template = this.templates + "/" + file;
     if (exists(template)) {
-        console.log( "-- load template-default-model: " + template);
+        console.log("-- load template-default-model: " + template);
         return require(template);
     }
 
@@ -79,23 +79,40 @@ Renderer.prototype.write = function (rendered) {
     }
 
     var Path = require('path');
-    var dirs = Path.dirname(this.tmplFile);
+    var dirs = Path.dirname(this.renderedFile);
 
     var W = require('wrench');
     W.mkdirSyncRecursive(dirs, 0777);
 
-    fs.writeFileSync(this.renderedFile, { encoding: 'utf8'});
+    fs.writeFileSync(this.renderedFile, rendered,  {
+        encoding: 'utf8',
+        flag: 'w+'
+    });
 };
 
 
 Renderer.prototype.useTemplate = function () {
     var input = this.template;
     var Handlebars = require("handlebars");
+    var handlebars = Handlebars.create();
+    handlebars.registerHelper( 'D', function (ctx, options) {
+        /*var out = "<ul>";
+
+         for(var i=0, l=items.length; i<l; i++) {
+         out = out + "<li>" + options.fn(items[i]) + "</li>";
+         }
+
+         return out + "</ul>";
+         */
+
+        return ", ";
+
+    });
 
     console.log("-- load & compile template");
     var source = fs.readFileSync(input, "utf8");
 
-    var rval = Handlebars.compile(source);
+    var rval = handlebars.compile(source);
     console.log("-- handlebars-template successful loaded.");
 
     return rval;
