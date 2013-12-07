@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impl/model/Renderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/FabriqueEnv.js" afterPath="$PROJECT_DIR$/impl/FabriqueEnv.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/model/Pipe.js" afterPath="$PROJECT_DIR$/impl/model/Pipe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/script.js" afterPath="$PROJECT_DIR$/impl/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -189,7 +192,7 @@
     <file path="/test-resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384148830549" ignored="false" />
     <file path="/test-fabrique-env-init.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384204324685" ignored="false" />
     <file path="/cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384807826196" ignored="false" />
-    <file path="/FabriqueEnv.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386261840702" ignored="false" />
+    <file path="/FabriqueEnv.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386437487365" ignored="false" />
     <file path="/package.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384223547726" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/fabrique.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224065810" ignored="false" />
     <file path="/fabrique.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224061897" ignored="false" />
@@ -197,7 +200,7 @@
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224619606" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384226786825" ignored="false" />
     <file path="/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385322991355" ignored="false" />
-    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386272265771" ignored="false" />
+    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386434080973" ignored="false" />
     <file path="/Cmd.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384807769885" ignored="false" />
     <file path="/Path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386257182884" ignored="false" />
     <file path="/out.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384471732855" ignored="false" />
@@ -237,7 +240,7 @@
     <file path="/hello-view.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386094644589" ignored="false" />
     <file path="/test-Source.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386264614633" ignored="false" />
     <file path="/DBManager.singleton.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386115718339" ignored="false" />
-    <file path="/Pipe.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386273895780" ignored="false" />
+    <file path="/Pipe.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386366077796" ignored="false" />
     <file path="/transform.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386255886729" ignored="false" />
     <file path="/loadModel.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386257506894" ignored="false" />
     <file path="/Source.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386258384616" ignored="false" />
@@ -247,7 +250,17 @@
     <file path="/create-tabel.sql.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386268788340" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/commands/create/AndroidManifest.xml.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386272072674" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/fabrique.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386268984760" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/scripts/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386272279121" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/scripts/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386437847965" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/templates/db/sqlite/create-table.tmpl.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386278886726" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/templates/db/sqlite/create-table.tmpl.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386278919320" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/templates/db/sqlite/create-table.tmpl.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386279975174" ignored="false" />
+    <file path="/create-table.tmpl.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386280184723" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/templates/db/sqlite/create-table.tmpl" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386280060395" ignored="false" />
+    <file path="/create-table.tmpl" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386280593118" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/templates/db/sqlite/create-table.sql.tmpl.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386280254086" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/templates/db/sqlite/create-table.sql.tmpl" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386280593118" ignored="false" />
+    <file path="/Render.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386437961486" ignored="false" />
+    <file path="/Renderer.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386437672607" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,10 +280,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Pipe.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FabriqueEnv.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="37" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#269#856#0" expanded="false" />
+                <element signature="e#905#1887#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pipe.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/model/Pipe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="23" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.83136594">
+            <state line="88" column="0" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/model/output.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="2" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Renderer.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/impl/model/Renderer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="66" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.68802696">
               <folding />
             </state>
           </provider>
@@ -294,8 +337,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/project1/model/patterns/DBManager.singleton.json" />
-        <option value="$PROJECT_DIR$/test/project1/fabrique.json.js" />
         <option value="$PROJECT_DIR$/test/project1/fabrique.json" />
         <option value="$PROJECT_DIR$/impl/model/transform.js" />
         <option value="$PROJECT_DIR$/impl/model/input.js" />
@@ -307,9 +348,11 @@
         <option value="$PROJECT_DIR$/impl/model/Dump.js" />
         <option value="$PROJECT_DIR$/test/test-Source.js" />
         <option value="$PROJECT_DIR$/bin/fabrique" />
-        <option value="$PROJECT_DIR$/impl/FabriqueEnv.js" />
         <option value="$PROJECT_DIR$/impl/script.js" />
         <option value="$PROJECT_DIR$/impl/model/Pipe.js" />
+        <option value="$PROJECT_DIR$/impl/model/Render.js" />
+        <option value="$PROJECT_DIR$/impl/FabriqueEnv.js" />
+        <option value="$PROJECT_DIR$/impl/model/Renderer.js" />
       </list>
     </option>
   </component>
@@ -636,7 +679,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58615136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28145942" sideWeight="0.4041868" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28145942" sideWeight="0.41384864" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5958132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -850,30 +893,11 @@
           <line>6</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/impl/FabriqueEnv.js</url>
-          <line>17</line>
-          <option name="timeStamp" value="94" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="95" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/lib/runnable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="0" selection-start="4283" selection-end="4283" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/lib/runner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="250" column="50" selection-start="5197" selection-end="5197" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/transform.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="82" selection-start="273" selection-end="273" vertical-scroll-proportion="0.39306358">
@@ -930,23 +954,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="136" selection-end="136" vertical-scroll-proportion="0.14333895">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="26" selection-start="392" selection-end="392" vertical-scroll-proportion="0.3726813">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/model/Dump.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.3726813">
           <folding />
         </state>
       </provider>
@@ -965,9 +975,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/impl/model/Dump.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="619" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/impl/model/Pipe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="23" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.83136594">
+        <state line="88" column="0" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/model/output.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="2" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="37" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#269#856#0" expanded="false" />
+            <element signature="e#905#1887#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/model/Renderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="66" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.68802696">
           <folding />
         </state>
       </provider>

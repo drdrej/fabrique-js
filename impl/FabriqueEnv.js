@@ -11,6 +11,7 @@ var createWorkDir = function(root) {
     return work;
 };
 
+
 var FabriqueEnv = function(root) {
     this.root = root;
     console.log("-- use root: " + root );
@@ -20,6 +21,12 @@ var FabriqueEnv = function(root) {
 
     this.work = createWorkDir(this.root);
     console.log("-- use work-path: " + this.work);
+
+    this.model = this.root + "/model";
+    console.log("-- use model-path: " + this.model);
+
+    this.templates = this.root + "/templates";
+    console.log("-- use templates-path: " + this.templates);
 
     // TODO: macht diese Prüfung Sinn?
     if( !this.config || _.isNull(this.config) ) {
@@ -82,6 +89,12 @@ FabriqueEnv.prototype.dump = function( path ) {
     var Dump = require( './model/Dump.js');
     return Dump.create(fullPath);
 };
+
+FabriqueEnv.prototype.template = function( name, to ) {
+    var Renderer = require( './model/Renderer.js');
+    return Renderer.create(this, name, to);
+};
+
 
 
 exports.create = function(root) {

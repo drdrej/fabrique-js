@@ -86,6 +86,8 @@ Pipe.prototype.handle = function(transformation, from) {
 };
 
 
+
+
 Pipe.prototype.apply = function( handler ) {
     var source = this.source;
     var that = this;
