@@ -91,8 +91,16 @@ FabriqueEnv.prototype.dump = function( path ) {
 };
 
 FabriqueEnv.prototype.template = function( name, to ) {
+    console.log( "-- use template: " + name);
     var Renderer = require( './model/Renderer.js');
+
     return Renderer.create(this, name, to);
+};
+
+FabriqueEnv.prototype.workspace = function( name ) {
+    console.log( "######## /// CALL WORKSPACE ::::" );
+
+    return {};
 };
 
 
