@@ -10,6 +10,7 @@ var _ = require('underscore');
  * @constructor
  */
 var Renderer = function (fab, name, output) {
+    this.filters = [];
     this.model = fab.model;
     this.output = fab.config.output;
     this.work = fab.work;
@@ -50,7 +51,7 @@ var modelFile = function (name) {
  * 2. fabrique/model-Directory
  * 3. template-Directory.
  */
-Renderer.prototype.useModel = function () {
+Renderer.prototype._useModel = function () {
     var file = this.file;
 
     var work = this.work + "/" + file;
@@ -83,7 +84,7 @@ Renderer.prototype.useModel = function () {
     return;
 };
 
-Renderer.prototype.write = function (rendered) {
+Renderer.prototype._writeOutput = function (rendered) {
     if (exists(this.renderedFile)) {
         var now = new Date().getTime();
         console.log("-- file exists: " + this.renderedFile + " -> overwrite it!");
@@ -102,7 +103,7 @@ Renderer.prototype.write = function (rendered) {
 };
 
 
-Renderer.prototype.useTemplate = function () {
+Renderer.prototype._useTemplate = function () {
     var input = this.template;
     var Handlebars = require("handlebars");
     var handlebars = Handlebars.create();
@@ -131,13 +132,30 @@ Renderer.prototype.useTemplate = function () {
     return rval;
 };
 
+Renderer.prototype.collapseSpace = function() {
+    return this.filter( function(rendered) {
+        var S = require( 'string' );
+        return S(rendered).collapseWhitespace().s;
+    });
+};
+
+
+Renderer.prototype.filter = function( filter ) {
+    this.filters.push(filter);
+    return this;
+};
+
 Renderer.prototype.render = function (json) {
+    /* if( options && _.isObject(options) ) {
+
+    } */
+
     var model;
     if (json && _.isObject(json)) {
         console.log("-- use passed json to render template.");
         model = json;
     } else {
-        model = this.useModel();
+        model = this._useModel();
     }
 
     if (!model) {
@@ -145,21 +163,26 @@ Renderer.prototype.render = function (json) {
         return;
     }
 
-    var template = this.useTemplate();
+    var template = this._useTemplate();
 
     // validate?
     var rendered = template(model);
 
+    var result = rendered;
+    _.each(this.filters, function(filter){
+         result = filter(result);
+    });
+
     if (_.isString(this.renderedFile)) {
-        this.write(rendered);
+        this._writeOutput(result);
     } else if (_.isFunction(this.renderedFile)) {
-        this.use(rendered);
+        this._consumeOutput(result);
     } else {
         throw new Error("unsupported render.output = " + this.renderedFile);
     }
 };
 
-Renderer.prototype.use = function (rendered) {
+Renderer.prototype._consumeOutput = function (rendered) {
     console.log("---------------- PSPA start");
     this.renderedFile(rendered);
 

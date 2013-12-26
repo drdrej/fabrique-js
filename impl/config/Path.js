@@ -23,7 +23,7 @@ var resolveAll  = function (config) {
 var exists = function( path ) {
     var has = (path && _.isString(path) && fs.existsSync(path) )
     if( !has ) {
-        console.log( "rosource dosn't exists: " + path);
+        console.log( "resource doesn't exists: " + path);
         return false;
     }
 

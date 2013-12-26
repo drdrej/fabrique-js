@@ -2,404 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\backbone\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\backbone\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\backbone\CNAME" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\backbone\CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\backbone\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\backbone\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\backbone\backbone-min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\backbone\backbone-min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\backbone\backbone.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\backbone\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\backbone\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\build.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\dist\crossroads.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\dist\crossroads.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\.project" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\CHANGELOG.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\dist\docs\files.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\dist\docs\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\dist\docs\static\default.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\dist\docs\symbolindex.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\dist\docs\symbols\Signal.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\dist\docs\symbols\SignalBinding.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\dist\docs\symbols\_global_.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\dist\docs\symbols\signals.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\dist\docs\symbols\src\_Users_millermedeiros_Projects__open_source_js-signals_dist_signals.js.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\dist\signals.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\dist\signals.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\node_modules\signals\updateDocs.sh" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\crossroads\testacular.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-log\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-log\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-log\.idea\fabrique-log.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-log\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-log\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-log\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-log\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-log\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-log\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-log\impl\log\Console.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-log\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-log\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\.idea\fabrique-render.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\bin\fabrique-render" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\example\hello-world.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\example\hello-world.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\example\hello-world.txt.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\impl\project\load-model.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\impl\project\resolve-path.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\impl\render-cli-arguments.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\impl\render-cli.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\impl\render-exec.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\impl\render-impl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\.bin\handlebars" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\.bin\handlebars.cmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\.rspec" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\bin\handlebars" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\dist\handlebars.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\dist\handlebars.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\dist\handlebars.runtime.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\dist\handlebars.runtime.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\global-test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\global.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\handlebars-source.gemspec" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\handlebars.js.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars\base.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars\browser-prefix.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars\browser-suffix.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars\compiler\ast.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars\compiler\base.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars\compiler\compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars\compiler\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars\compiler\parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars\compiler\printer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars\compiler\visitor.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars\runtime.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars\source.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\lib\handlebars\utils.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\min.sh" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\.bin\uglifyjs" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\.bin\uglifyjs.cmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\bool.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\boolean_double.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\boolean_single.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\default_hash.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\default_singles.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\divide.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\line_count.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\line_count_options.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\line_count_wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\nonopt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\reflect.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\short.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\string.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\usage-options.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\example\xup.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\node_modules\wordwrap\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\node_modules\wordwrap\README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\node_modules\wordwrap\example\center.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\node_modules\wordwrap\example\meat.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\node_modules\wordwrap\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\node_modules\wordwrap\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\node_modules\wordwrap\test\break.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\node_modules\wordwrap\test\idleness.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\node_modules\wordwrap\test\wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\test\_.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\test\_\argv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\test\_\bin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\test\parse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\optimist\test\usage.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\bin\uglifyjs" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\lib\ast.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\lib\compress.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\lib\mozilla-ast.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\lib\output.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\lib\parse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\lib\scope.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\lib\sourcemap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\lib\transform.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\lib\utils.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\async\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\async\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\async\component.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\async\lib\async.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\async\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\Makefile.dryice.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\build\assert-shim.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\build\mini-require.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\build\prefix-source-map.jsm" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\build\prefix-utils.jsm" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\build\suffix-browser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\build\suffix-source-map.jsm" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\build\suffix-utils.jsm" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\build\test-prefix.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\build\test-suffix.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\lib\source-map.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\lib\source-map\array-set.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\lib\source-map\base64-vlq.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\lib\source-map\base64.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\lib\source-map\binary-search.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\lib\source-map\source-map-consumer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\lib\source-map\source-map-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\lib\source-map\source-node.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\lib\source-map\util.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\node_modules\amdefine\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\node_modules\amdefine\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\node_modules\amdefine\amdefine.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\node_modules\amdefine\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\test\run-tests.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\test\source-map\test-api.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\test\source-map\test-array-set.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\test\source-map\test-base64-vlq.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\test\source-map\test-base64.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\test\source-map\test-binary-search.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\test\source-map\test-dog-fooding.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\test\source-map\test-source-map-consumer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\test\source-map\test-source-map-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\test\source-map\test-source-node.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\node_modules\source-map\test\source-map\util.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\arrays.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\blocks.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\conditionals.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\dead-code.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\debugger.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\drop-unused.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\issue-105.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\issue-12.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\issue-143.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\issue-22.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\issue-44.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\issue-59.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\labels.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\loops.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\properties.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\sequences.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\switch.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\compress\typeof.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\test\run-tests.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\node_modules\uglify-js\tools\node.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\release-notes.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\node_modules\handlebars\test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\test\files\model-project-path.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\fabrique-render\test\test-render-impl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\examples\g.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\examples\usr-local.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\glob.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\inherits\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\inherits\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\inherits\inherits.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\inherits\inherits_browser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\inherits\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\inherits\test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\minimatch.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\bench.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\lib\lru-cache.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\test\basic.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\test\foreach.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\test\memory-leak.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\sigmund\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\sigmund\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\sigmund\bench.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\sigmund\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\sigmund\sigmund.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\node_modules\sigmund\test\basic.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\test\basic.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\test\brace-expand.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\test\caching.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\node_modules\minimatch\test\defaults.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\test\00-setup.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\test\bash-comparison.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\test\bash-results.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\test\cwd-test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\test\globstar-match.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\test\mark.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\test\nocase-nomagic.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\test\pause-resume.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\test\root-nomount.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\test\root.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\test\stat.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\glob\test\zz-cleanup.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\minimatch.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\lru-cache\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\lru-cache\AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\lru-cache\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\lru-cache\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\lru-cache\bench.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\lru-cache\lib\lru-cache.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\lru-cache\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\lru-cache\test\basic.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\lru-cache\test\foreach.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\lru-cache\test\memory-leak.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\sigmund\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\sigmund\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\sigmund\bench.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\sigmund\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\sigmund\sigmund.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\node_modules\sigmund\test\basic.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\test\basic.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\test\brace-expand.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\test\caching.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\minimatch\test\defaults.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\nopt\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\nopt\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\nopt\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\nopt\bin\nopt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\nopt\examples\my-program.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\nopt\lib\nopt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\nopt\node_modules\abbrev\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\nopt\node_modules\abbrev\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\nopt\node_modules\abbrev\lib\abbrev.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\nopt\node_modules\abbrev\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\nopt\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\bool.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\boolean_double.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\boolean_single.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\default_hash.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\default_singles.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\divide.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\line_count.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\line_count_options.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\line_count_wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\nonopt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\reflect.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\short.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\string.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\usage-options.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\example\xup.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\node_modules\wordwrap\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\node_modules\wordwrap\README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\node_modules\wordwrap\example\center.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\node_modules\wordwrap\example\meat.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\node_modules\wordwrap\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\node_modules\wordwrap\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\node_modules\wordwrap\test\break.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\node_modules\wordwrap\test\idleness.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\node_modules\wordwrap\test\wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\test\_.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\test\_\argv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\test\_\bin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\test\dash.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\test\parse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\test\parse_modified.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\test\short.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\test\usage.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\optimist\test\whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\component.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\commonjs\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\commonjs\rsvp\all.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\commonjs\rsvp\async.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\commonjs\rsvp\config.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\commonjs\rsvp\defer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\commonjs\rsvp\events.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\commonjs\rsvp\hash.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\commonjs\rsvp\node.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\commonjs\rsvp\promise.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\commonjs\rsvp\reject.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\commonjs\rsvp\resolve.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\commonjs\rsvp\rethrow.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\rsvp-2.0.4.amd.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\rsvp-2.0.4.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\dist\rsvp-2.0.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\lib\rsvp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\lib\rsvp\all.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\lib\rsvp\async.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\lib\rsvp\config.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\lib\rsvp\defer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\lib\rsvp\events.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\lib\rsvp\hash.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\lib\rsvp\node.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\lib\rsvp\promise.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\lib\rsvp\reject.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\lib\rsvp\resolve.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\lib\rsvp\rethrow.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\options\browserify.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\options\mocha_phantom.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\options\mocha_test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\options\s3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\test\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\test\test-adapter.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\test\tests\extension_test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\test\vendor\assert.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\test\vendor\mocha.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\home\projects\fabriquejs-core\sources\fabrique-js\node_modules\rsvp\test\vendor\mocha.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/FabriqueEnv.js" afterPath="$PROJECT_DIR$/impl/FabriqueEnv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/config/Path.js" afterPath="$PROJECT_DIR$/impl/config/Path.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/model/Renderer.js" afterPath="$PROJECT_DIR$/impl/model/Renderer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impl/script.js" afterPath="$PROJECT_DIR$/impl/script.js" />
     </list>
     <ignored path="fabrique-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -408,7 +14,7 @@
     <file path="/app-model.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366827086895" ignored="false" />
     <file path="/databases.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366821707549" ignored="false" />
     <file path="/project.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366822559106" ignored="false" />
-    <file path="/a.dummy" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1387828509189" ignored="false" />
+    <file path="/a.dummy" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1387837677793" ignored="false" />
     <file path="/cleanup.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366824077993" ignored="false" />
     <file path="/create-directory-structure.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366824744385" ignored="false" />
     <file path="/query-json-select.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1366846268083" ignored="false" />
@@ -585,7 +191,7 @@
     <file path="/test-resolvePath.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384148830549" ignored="false" />
     <file path="/test-fabrique-env-init.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384204324685" ignored="false" />
     <file path="/cli.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384807826196" ignored="false" />
-    <file path="/FabriqueEnv.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1387558571997" ignored="false" />
+    <file path="/FabriqueEnv.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1387834913354" ignored="false" />
     <file path="/package.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384223547726" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/fabrique.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224065810" ignored="false" />
     <file path="/fabrique.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224061897" ignored="false" />
@@ -593,7 +199,7 @@
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384224619606" ignored="false" />
     <file path="$PROJECT_DIR$/../fabrique-example-prj/toolset/java-prj/commands/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384226786825" ignored="false" />
     <file path="/create.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1385322991355" ignored="false" />
-    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1387834072160" ignored="false" />
+    <file path="/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1388101280810" ignored="false" />
     <file path="/Cmd.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384807769885" ignored="false" />
     <file path="/Path.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386257182884" ignored="false" />
     <file path="/out.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1384471732855" ignored="false" />
@@ -638,7 +244,7 @@
     <file path="/loadModel.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386257506894" ignored="false" />
     <file path="/Source.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386258384616" ignored="false" />
     <file path="/Dump.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386263893896" ignored="false" />
-    <file path="/script.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386271075891" ignored="false" />
+    <file path="/script.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1388101427820" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/commands/create/db/sqlite/create-tabel.sql.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386268799629" ignored="false" />
     <file path="/create-tabel.sql.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386268788340" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/commands/create/AndroidManifest.xml.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386272072674" ignored="false" />
@@ -653,7 +259,7 @@
     <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/templates/db/sqlite/create-table.sql.tmpl.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386280254086" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/templates/db/sqlite/create-table.sql.tmpl" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386280593118" ignored="false" />
     <file path="/Render.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386440232180" ignored="false" />
-    <file path="/Renderer.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1387833999631" ignored="false" />
+    <file path="/Renderer.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1388072754906" ignored="false" />
     <file path="/create-table.sql.hbs" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386439524424" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-mb-app/app-fabrique/templates/db/sqlite/create-table.sql.hbs" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386439640727" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-mb-app/repository/app-fabrique/scripts/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386527695392" ignored="false" />
@@ -667,7 +273,11 @@
     <file path="/AndroidManifest.xml.hbs" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386527482140" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-mb-app/repository/app-fabrique/model/app.json" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386527631460" ignored="false" />
     <file path="$PROJECT_DIR$/../../../mobile-knappschaft-app/repository/ks-app/backbone-frontend/js/views/appointments/appointment-details.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1386673588387" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../mobile-mb-app/repository/dr.psyco/fabrique/scripts/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1387834081082" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/repository/dr.psyco/fabrique/scripts/create.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1388101301354" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/repository/dr.psyco/fabrique/generated/db/sql/create/table/test.sql" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1388101451535" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/repository/dr.psyco/fabrique/routes/database.stage.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1388098918892" ignored="false" />
+    <file path="/database.stage.json.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1388098856109" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../mobile-mb-app/repository/dr.psyco/fabrique/scripts/create.v3.js" changelist="30b46dc7-1ddf-469a-824a-bdb14e00c9ab" time="1388099674202" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -690,25 +300,34 @@
       <file leaf-file-name="FabriqueEnv.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="40" selection-start="2434" selection-end="2434" vertical-scroll-proportion="0.0">
+            <state line="75" column="47" selection-start="1931" selection-end="1938" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fabrique.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/project1/fabrique.json">
+      <file leaf-file-name="Path.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="81" selection-start="166" selection-end="166" vertical-scroll-proportion="-6.5384617">
+            <state line="25" column="34" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Renderer.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Renderer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/impl/model/Renderer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="100" selection-start="3935" selection-end="3935" vertical-scroll-proportion="0.46777165">
+            <state line="134" column="32" selection-start="3290" selection-end="3303" vertical-scroll-proportion="-1.6037736">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/impl/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="17" selection-start="631" selection-end="631" vertical-scroll-proportion="0.74285716">
               <folding />
             </state>
           </provider>
@@ -734,20 +353,20 @@
       <list>
         <option value="$PROJECT_DIR$/impl/model/input.js" />
         <option value="$PROJECT_DIR$/impl/transform.js" />
-        <option value="$PROJECT_DIR$/impl/config/Path.js" />
         <option value="$PROJECT_DIR$/impl/model/loadModel.js" />
         <option value="$PROJECT_DIR$/impl/model/match-path.js" />
         <option value="$PROJECT_DIR$/impl/model/Source.js" />
         <option value="$PROJECT_DIR$/impl/model/Dump.js" />
         <option value="$PROJECT_DIR$/test/test-Source.js" />
         <option value="$PROJECT_DIR$/bin/fabrique" />
-        <option value="$PROJECT_DIR$/impl/script.js" />
         <option value="$PROJECT_DIR$/impl/model/Pipe.js" />
         <option value="$PROJECT_DIR$/impl/model/Render.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/impl/FabriqueEnv.js" />
+        <option value="$PROJECT_DIR$/impl/config/Path.js" />
         <option value="$PROJECT_DIR$/impl/model/Renderer.js" />
+        <option value="$PROJECT_DIR$/impl/script.js" />
       </list>
     </option>
   </component>
@@ -1055,9 +674,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58615136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5858748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28145942" sideWeight="0.4041868" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28145942" sideWeight="0.4141252" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5958132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1268,7 +887,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/impl/model/Renderer.js</url>
-          <line>120</line>
+          <line>121</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
       </breakpoints>
@@ -1332,37 +951,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impl/script.js">
+    <entry file="file://$PROJECT_DIR$/test/project1/fabrique.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.17142858">
+        <state line="10" column="81" selection-start="166" selection-end="166" vertical-scroll-proportion="0.29876977">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/config/Path.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="104" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.3344538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="40" selection-start="2434" selection-end="2434" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/project1/fabrique.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="81" selection-start="166" selection-end="166" vertical-scroll-proportion="-6.5384617">
+        <state line="25" column="34" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impl/model/Renderer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="100" selection-start="3935" selection-end="3935" vertical-scroll-proportion="0.46777165">
+        <state line="134" column="32" selection-start="3290" selection-end="3303" vertical-scroll-proportion="-1.6037736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/FabriqueEnv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="47" selection-start="1931" selection-end="1938" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impl/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="17" selection-start="631" selection-end="631" vertical-scroll-proportion="0.74285716">
           <folding />
         </state>
       </provider>

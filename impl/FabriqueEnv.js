@@ -97,7 +97,7 @@ FabriqueEnv.prototype.template = function( name, to ) {
     return Renderer.create(this, name, to);
 };
 
-FabriqueEnv.prototype.workspace = function( name ) {
+FabriqueEnv.prototype.send = function( type, uid, obj ) {
     console.log( "######## /// CALL WORKSPACE ::::" );
 
     return {};
